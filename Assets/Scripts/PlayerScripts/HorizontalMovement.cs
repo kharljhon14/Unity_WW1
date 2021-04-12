@@ -6,8 +6,9 @@ namespace WorldWarOneTools
 {
     public class HorizontalMovement : Abilities
     {
-        [SerializeField] protected float timeTillMaxSpeed;
+        [SerializeField] protected float timeTillMaxSpeed; //Time to reach max speed
         [SerializeField] protected float maxSpeed;
+        [SerializeField] protected float sprintMultiplier;
 
         private float acceleration;
         private float currentSpeed;
@@ -16,19 +17,33 @@ namespace WorldWarOneTools
 
         protected override void Initialization()
         {
-            base.Initialization();
+            base.Initialization(); //Initialize character class
         }
 
         protected virtual void Update()
         {
             MovementPressed();
+            SprintingHeld();
         }
 
         protected virtual bool MovementPressed()
         {
-            if (Input.GetAxis("Horizontal") != 0)
+            //Check if movement button is pressed
+            if (Input.GetAxisRaw("Horizontal") != 0)
             {
-                horizontalInput = Input.GetAxis("Horizontal");
+                horizontalInput = Input.GetAxisRaw("Horizontal");
+                return true;
+            }
+            else
+                return false;
+        }
+
+        protected virtual bool SprintingHeld()
+        {
+            //Check if sprint button is pressed
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+               
                 return true;
             }
             else
@@ -59,18 +74,49 @@ namespace WorldWarOneTools
                 runTime = 0;
                 currentSpeed = 0;
             }
+
+            SpeedMultiplier();
             //Move Player
             rb2d.velocity = new Vector2(currentSpeed, rb2d.velocity.y);
         }
 
         protected virtual void CheckDirection()
         {
-            //Limit the current 
-            if (currentSpeed > maxSpeed)
-                currentSpeed = maxSpeed;
+            //Check the player direction
+            if(currentSpeed > 0)
+            {
+                //if player is facing right
+                if (character.isFacingLeft)
+                {
+                    character.isFacingLeft = false;
+                    Flip();
+                }
 
-            if (currentSpeed < -maxSpeed)
-                currentSpeed = -maxSpeed;
+                //Limit the current 
+                if (currentSpeed > maxSpeed)
+                    currentSpeed = maxSpeed;
+            }
+
+            if(currentSpeed < 0)
+            {
+                if (!character.isFacingLeft)
+                {
+                    character.isFacingLeft = true;
+                    Flip();
+                }
+
+                if (currentSpeed < -maxSpeed)
+                    currentSpeed = -maxSpeed;
+            }
+           
+        }
+
+        protected virtual void SpeedMultiplier()
+        {
+            if (SprintingHeld())
+            {
+                currentSpeed *= sprintMultiplier;
+            }
         }
     }
 }

@@ -570,6 +570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef41dcb75af5d3544b40234914762a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFacingLeft: 0
 --- !u!114 &2008685650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -582,5 +583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b112b16707aa825479f539f9c6e5dd3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeTillMaxSpeed: 0.75
-  maxSpeed: 6
+  isFacingLeft: 0
+  timeTillMaxSpeed: 0
+  maxSpeed: 10
+  sprintMultiplier: 2
