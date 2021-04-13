@@ -42,10 +42,8 @@ namespace WorldWarOneTools
         {
             //Check if sprint button is pressed
             if (Input.GetKey(KeyCode.LeftShift))
-            {
-               
                 return true;
-            }
+
             else
                 return false;
         }
@@ -113,10 +111,9 @@ namespace WorldWarOneTools
 
         protected virtual void SpeedMultiplier()
         {
+            //if button is held multiply currentSpeed
             if (SprintingHeld())
-            {
                 currentSpeed *= sprintMultiplier;
-            }
         }
     }
 }
