@@ -17,6 +17,8 @@ namespace WorldWarOneTools
         protected Animator anim;
         protected HorizontalMovement horizontalMovement;
         protected Jump jump;
+        protected InputManager inputManager;
+        
 
         private Vector2 facingLeft;
 
@@ -32,6 +34,7 @@ namespace WorldWarOneTools
             anim = GetComponent<Animator>();
             horizontalMovement = GetComponent<HorizontalMovement>();
             jump = GetComponent<Jump>();
+            inputManager = GetComponent<InputManager>();
 
             facingLeft = new Vector2(-transform.localScale.x, transform.localScale.y);
         }

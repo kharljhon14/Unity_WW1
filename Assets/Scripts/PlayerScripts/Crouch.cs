@@ -29,22 +29,12 @@ namespace WorldWarOneTools
 
         protected virtual void FixedUpdate()
         {
-            CrouchHeld();
             Crouching();
-        }
-
-        protected virtual bool CrouchHeld()
-        {
-            if (Input.GetKey(KeyCode.X))
-            {
-                return true;
-            }
-            return false;
         }
 
         protected virtual void Crouching()
         {
-            if(CrouchHeld() && character.isGrounded)
+            if(inputManager.CrouchHeld() && character.isGrounded)
             {
                 character.isCrouching = true;
                 //Need Crouching Animation
@@ -61,8 +51,7 @@ namespace WorldWarOneTools
                         return;
                     }
                         StartCoroutine(CrouchDisable());
-                }
-                    
+                }      
             }
         }
 

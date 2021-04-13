@@ -13,7 +13,6 @@ namespace WorldWarOneTools
 
         private float acceleration;
         private float currentSpeed;
-        private float horizontalInput;
         private float runTime;
 
         protected override void Initialization()
@@ -23,32 +22,9 @@ namespace WorldWarOneTools
 
         protected virtual void Update()
         {
-            MovementPressed();
-            SprintingHeld();
+            
         }
 
-        public virtual bool MovementPressed()
-        {
-            //Check if movement button is pressed
-            if (Input.GetAxisRaw("Horizontal") != 0)
-            {
-                horizontalInput = Input.GetAxisRaw("Horizontal");
-                return true;
-            }
-
-            else
-                return false;
-        }
-
-        protected virtual bool SprintingHeld()
-        {
-            //Check if sprint button is pressed
-            if (Input.GetKey(KeyCode.LeftShift))
-                return true;
-
-            else
-                return false;
-        }
 
         protected virtual void FixedUpdate()
         {
@@ -57,14 +33,14 @@ namespace WorldWarOneTools
 
         protected virtual void Movement()
         {
-            if (MovementPressed())
+            if (inputManager.MovementPressed())
             {
                 anim.SetBool("Moving", true);
                 //Declare acceleration
                 acceleration = maxSpeed / timeTillMaxSpeed; // Speed needs to ramp up to get to fullspeed. put 0 in timeTillMaxSpeed for no ramp up speed
 
                 runTime += Time.fixedDeltaTime; //Calculate how many frames the player has been moving
-                currentSpeed = horizontalInput * acceleration * runTime;
+                currentSpeed = inputManager.horizontalInput * acceleration * runTime;
 
                 CheckDirection();//All the logic for solving for maximum speed values
             }
@@ -111,14 +87,13 @@ namespace WorldWarOneTools
 
                 if (currentSpeed < -maxSpeed)
                     currentSpeed = -maxSpeed;
-            }
-           
+            } 
         }
 
         protected virtual void SpeedMultiplier()
         {
             //if button is held multiply currentSpeed
-            if (SprintingHeld())
+            if (inputManager.SprintingHeld())
                 currentSpeed *= sprintMultiplier;
 
             if (character.isCrouching)

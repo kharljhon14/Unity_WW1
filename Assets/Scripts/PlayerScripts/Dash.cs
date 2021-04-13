@@ -23,28 +23,19 @@ namespace WorldWarOneTools
 
         protected virtual void Update()
         {
-            DashPressed();
-        }
-
-        protected virtual bool DashPressed()
-        {
-            if (Input.GetKeyDown(KeyCode.Z) && canDash && character.isGrounded)
-            {
-                Dashing();
-                return true;
-            }
-
-            else
-                return false;
+            Dashing();
         }
 
         protected virtual void Dashing()
         {
-            dashCountDown = dashCooldownTime;
-            capsuleCollider.direction = CapsuleDirection2D.Horizontal;
-            capsuleCollider.size = new Vector2(capsuleCollider.size.y, capsuleCollider.size.x);
-            character.isDashing = true;
-            StartCoroutine(FinishedDashing());
+            if (inputManager.DashPressed() && canDash && isGrounded)
+            {
+                dashCountDown = dashCooldownTime;
+                capsuleCollider.direction = CapsuleDirection2D.Horizontal;
+                capsuleCollider.size = new Vector2(capsuleCollider.size.y, capsuleCollider.size.x);
+                character.isDashing = true;
+                StartCoroutine(FinishedDashing());
+            }    
         }
 
         protected virtual void FixedUpdate()

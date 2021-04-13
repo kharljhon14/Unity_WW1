@@ -41,13 +41,12 @@ namespace WorldWarOneTools
 
         protected virtual void Update()
         {
-            JumpPressed();
-            JumpHeld();
+            CheckForJump();
         }
 
-        protected virtual bool JumpPressed()
+        protected virtual bool CheckForJump()
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (inputManager.JumpPressed())
             {
                 //To Check if the player is falling and disable jumping
                 if (!character.isGrounded && numberOfJumpsLeft == maxJumps)
@@ -84,24 +83,14 @@ namespace WorldWarOneTools
                 return false;
         }
 
-        //Check if jump button is held
-        protected virtual bool JumpHeld()
-        {
-            if (Input.GetKey(KeyCode.Space))
-            {
-                return true;
-            }
-            else
-                return false;
-        }
-
+      
         protected virtual void FixedUpdate()
         {
             IsJumping();
             //Gliding();
             GroundCheck();
-            WallSliding();
-            WallJump();
+            //WallSliding();
+            //WallJump();
         }
 
         protected virtual void IsJumping()
@@ -122,7 +111,7 @@ namespace WorldWarOneTools
 
         protected virtual void Gliding()
         {
-            if(Falling(0) && JumpHeld())
+            if(Falling(0) && inputManager.JumpHeld())
             {
                 fallCountDown -= Time.deltaTime;
                 if(fallCountDown > 0 && rb2d.velocity.y > acceptedFallSpeed)
@@ -134,7 +123,7 @@ namespace WorldWarOneTools
 
         protected virtual void AdditionalAir()
         {
-            if (JumpHeld())
+            if (inputManager.JumpHeld())
             {
                 jumpCountDown -= Time.deltaTime;
                 if (jumpCountDown <= 0)
@@ -176,7 +165,7 @@ namespace WorldWarOneTools
         protected virtual bool WallCheck()
         {
             //Check if there is wall infront of the player regardless of what direction the player is facing and checking if the player is not grounded and if the player is moving
-            if((!character.isFacingLeft && CollisionCheck(Vector2.right, distanceToCollider, collisionLayer) || character.isFacingLeft && CollisionCheck(Vector2.left, distanceToCollider, collisionLayer)) && horizontalMovement.MovementPressed() && !character.isGrounded)
+            if((!character.isFacingLeft && CollisionCheck(Vector2.right, distanceToCollider, collisionLayer) || character.isFacingLeft && CollisionCheck(Vector2.left, distanceToCollider, collisionLayer)) && inputManager.MovementPressed() && !character.isGrounded)
             {
                 return true;
             }

@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 1176383434}
   - component: {fileID: -3970008218632824210}
   - component: {fileID: 5021996246616320893}
+  - component: {fileID: 2033404786}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -54,10 +55,10 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &-3562184596227588792
@@ -114,7 +115,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1264499051
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5264e3e3080c7704eb2a6d9cb1f5207b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -143,6 +144,7 @@ MonoBehaviour:
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
+  isWallSliding: 0
 --- !u!114 &1118705915703831801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,6 +161,7 @@ MonoBehaviour:
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
+  isWallSliding: 0
   timeTillMaxSpeed: 0.5
   maxSpeed: 6
   sprintMultiplier: 1.5
@@ -179,17 +182,21 @@ MonoBehaviour:
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
+  isWallSliding: 0
   limitAirJumps: 1
   maxJumps: 2
-  jumpForce: 100
-  holdForce: 100
+  jumpForce: 150
+  holdForce: 150
   buttonHoldTime: 0.5
   distanceToCollider: 0.05
+  horizontalWallJumpForce: 25
+  verticalWallJumpForce: 25
   maxJumpSpeed: 10
-  maxFallSpeed: -10
-  acceptedFallSpeed: -5
+  maxFallSpeed: -15
+  acceptedFallSpeed: -10
   glideTime: 1.5
   gravity: 0.5
+  wallJumpTime: 0.5
   collisionLayer:
     serializedVersion: 2
     m_Bits: 192
@@ -209,6 +216,7 @@ MonoBehaviour:
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
+  isWallSliding: 0
   colliderMultiplier: 0
   layers:
     serializedVersion: 2
@@ -229,6 +237,10 @@ MonoBehaviour:
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
+<<<<<<< Updated upstream
+=======
+  isWallSliding: 0
+>>>>>>> Stashed changes
   dashForce: 25
   dashCooldownTime: 3
   dashAmountTime: 0.5
@@ -254,3 +266,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2033404786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5021996246616320894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5caf701ef89cc4eb884c977cd97e5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joystick: {fileID: 0}
+  horizontalInput: 0
