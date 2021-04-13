@@ -9,7 +9,7 @@ Save Progess
 Core Mechanics
 Gameplay
 
-###Completed
+### Completed
 [PLAYER]
 Idle
 Moving
