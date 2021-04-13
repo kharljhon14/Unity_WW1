@@ -9,6 +9,7 @@ namespace WorldWarOneTools
         [SerializeField] protected float timeTillMaxSpeed; //Time to reach max speed
         [SerializeField] protected float maxSpeed;
         [SerializeField] protected float sprintMultiplier;
+        [SerializeField] protected float crouchingSpeed;
 
         private float acceleration;
         private float currentSpeed;
@@ -34,6 +35,7 @@ namespace WorldWarOneTools
                 horizontalInput = Input.GetAxisRaw("Horizontal");
                 return true;
             }
+
             else
                 return false;
         }
@@ -66,6 +68,7 @@ namespace WorldWarOneTools
 
                 CheckDirection();//All the logic for solving for maximum speed values
             }
+
             else
             {
                 anim.SetBool("Moving", false);
@@ -117,6 +120,9 @@ namespace WorldWarOneTools
             //if button is held multiply currentSpeed
             if (SprintingHeld())
                 currentSpeed *= sprintMultiplier;
+
+            if (character.isCrouching)
+                currentSpeed *= crouchingSpeed;
         }
     }
 }

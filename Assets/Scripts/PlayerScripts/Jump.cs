@@ -15,17 +15,21 @@ namespace WorldWarOneTools
         [SerializeField] protected float maxJumpSpeed;
         [SerializeField] protected float maxFallSpeed;
         [SerializeField] protected float acceptedFallSpeed;
+        [SerializeField] protected float glideTime;
+        [Range(-2, 2)] [SerializeField] protected float gravity;
         [SerializeField] protected LayerMask collisionLayer;
 
         private bool isJumping;
         private float jumpCountDown;
         private int numberOfJumpsLeft;
+        private float fallCountDown;
 
         protected override void Initialization()
         {
             base.Initialization();
             numberOfJumpsLeft = maxJumps;
             jumpCountDown = buttonHoldTime;
+            fallCountDown = glideTime;
         }
 
         protected virtual void Update()
@@ -54,8 +58,10 @@ namespace WorldWarOneTools
                 numberOfJumpsLeft--;
                 if(numberOfJumpsLeft >= 0)
                 {
+                    rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
                     jumpCountDown = buttonHoldTime;
                     isJumping = true;
+                    fallCountDown = glideTime;
                 }
                     
                 return true;
@@ -79,6 +85,7 @@ namespace WorldWarOneTools
         protected virtual void FixedUpdate()
         {
             IsJumping();
+            //Gliding();
             GroundCheck();
         }
 
@@ -95,6 +102,18 @@ namespace WorldWarOneTools
             if(rb2d.velocity.y > maxJumpSpeed)
             {
                 rb2d.velocity = new Vector2(rb2d.velocity.x, maxJumpSpeed);
+            }
+        }
+
+        protected virtual void Gliding()
+        {
+            if(Falling(0) && JumpHeld())
+            {
+                fallCountDown -= Time.deltaTime;
+                if(fallCountDown > 0 && rb2d.velocity.y > acceptedFallSpeed)
+                {
+                    FallSpeed(gravity);
+                }
             }
         }
 
@@ -123,6 +142,7 @@ namespace WorldWarOneTools
                 anim.SetBool("Grounded", true);
                 character.isGrounded = true;
                 numberOfJumpsLeft = maxJumps;
+                fallCountDown = glideTime;
             }
 
             else

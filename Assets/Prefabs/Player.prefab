@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3109961808351343943}
   - component: {fileID: 1118705915703831801}
   - component: {fileID: 387999144171751355}
+  - component: {fileID: 1176383434}
   - component: {fileID: 5021996246616320893}
   m_Layer: 0
   m_Name: Player
@@ -32,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 5021996246616320894}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.4657784, y: -2.1585126, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -71,7 +72,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.4165249, y: -0.07748115}
+  m_Offset: {x: -0.4165249, y: -0.17}
   m_Size: {x: 2.1367683, y: 3.5959876}
   m_Direction: 0
 --- !u!212 &5021996246616320892
@@ -139,6 +140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingLeft: 0
   isGrounded: 0
+  isCrouching: 0
 --- !u!114 &1118705915703831801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,9 +155,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingLeft: 0
   isGrounded: 0
-  timeTillMaxSpeed: 0
+  isCrouching: 0
+  timeTillMaxSpeed: 0.5
   maxSpeed: 6
-  sprintMultiplier: 2
+  sprintMultiplier: 1.5
+  crouchingSpeed: 0.5
 --- !u!114 &387999144171751355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,6 +174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingLeft: 0
   isGrounded: 0
+  isCrouching: 0
   limitAirJumps: 1
   maxJumps: 2
   jumpForce: 100
@@ -179,9 +184,27 @@ MonoBehaviour:
   maxJumpSpeed: 10
   maxFallSpeed: -10
   acceptedFallSpeed: -5
+  glideTime: 1.5
+  gravity: 0.5
   collisionLayer:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &1176383434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5021996246616320894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60637a8462820714a9f135820e39775c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFacingLeft: 0
+  isGrounded: 0
+  isCrouching: 0
+  colliderMultiplier: 0.5
 --- !u!95 &5021996246616320893
 Animator:
   serializedVersion: 3

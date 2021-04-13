@@ -8,6 +8,8 @@ namespace WorldWarOneTools
     {
         [HideInInspector] public bool isFacingLeft;
         [HideInInspector] public bool isGrounded;
+        [HideInInspector] public bool isCrouching;
+        [HideInInspector] public bool isDashing;
 
         protected Collider2D col;
         protected Rigidbody2D rb2d;
@@ -57,6 +59,12 @@ namespace WorldWarOneTools
                 return true;
             else
                 return false;
+        }
+
+        protected virtual void FallSpeed(float speed)
+        {
+            //Multiply the speed of falling by this variable speed
+            rb2d.velocity = new Vector2(rb2d.velocity.x, (rb2d.velocity.y) * speed);
         }
     }
 }
