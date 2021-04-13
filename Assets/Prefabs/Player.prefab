@@ -237,10 +237,7 @@ MonoBehaviour:
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
-<<<<<<< Updated upstream
-=======
   isWallSliding: 0
->>>>>>> Stashed changes
   dashForce: 25
   dashCooldownTime: 3
   dashAmountTime: 0.5
