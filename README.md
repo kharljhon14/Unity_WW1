@@ -2,19 +2,21 @@
 Unity 2D platformer
 
 ## Marion TODO
-Login / Register
+Login / Register,
 Save Progess
 
 ## Karl TODO
-Core Mechanics
-Gameplay
+Core Mechanics,
+Gameplay,
+Shooting,
+Weapon Inventory
 
 ### Completed
 [PLAYER]
-Idle
-Moving
-Sprinting
-Double Jump
-Dashing
-Crouching
+Idle,
+Moving,
+Sprinting,
+Double Jump,
+Dashing,
+Crouching,
 WallJump / WallSlide
