@@ -192,7 +192,7 @@ MonoBehaviour:
   gravity: 0.5
   collisionLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 192
 --- !u!114 &1176383434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,12 +229,12 @@ MonoBehaviour:
   isGrounded: 0
   isCrouching: 0
   isDashing: 0
-  dashForce: 150
+  dashForce: 25
   dashCooldownTime: 3
   dashAmountTime: 0.5
   dashingLayer:
     serializedVersion: 2
-    m_Bits: 192
+    m_Bits: 128
 --- !u!95 &5021996246616320893
 Animator:
   serializedVersion: 3

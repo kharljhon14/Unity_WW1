@@ -13,6 +13,13 @@ namespace WorldWarOneTools
 
         private bool canDash;
         private float dashCountDown;
+        private CapsuleCollider2D capsuleCollider;
+
+        protected override void Initialization()
+        {
+            base.Initialization();
+            capsuleCollider = GetComponent<CapsuleCollider2D>();
+        }
 
         protected virtual void Update()
         {
@@ -21,7 +28,7 @@ namespace WorldWarOneTools
 
         protected virtual bool DashPressed()
         {
-            if (Input.GetKeyDown(KeyCode.Z) && canDash)
+            if (Input.GetKeyDown(KeyCode.Z) && canDash && character.isGrounded)
             {
                 Dashing();
                 return true;
@@ -34,6 +41,8 @@ namespace WorldWarOneTools
         protected virtual void Dashing()
         {
             dashCountDown = dashCooldownTime;
+            capsuleCollider.direction = CapsuleDirection2D.Horizontal;
+            capsuleCollider.size = new Vector2(capsuleCollider.size.y, capsuleCollider.size.x);
             character.isDashing = true;
             StartCoroutine(FinishedDashing());
         }
@@ -95,6 +104,8 @@ namespace WorldWarOneTools
         protected virtual IEnumerator FinishedDashing()
         {
             yield return new WaitForSeconds(dashAmountTime);
+            capsuleCollider.direction = CapsuleDirection2D.Vertical;
+            capsuleCollider.size = new Vector2(capsuleCollider.size.y, capsuleCollider.size.x);
             character.isDashing = false;
             FallSpeed(1);
             horizontalMovement.enabled = true;

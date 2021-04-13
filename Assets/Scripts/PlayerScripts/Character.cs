@@ -10,11 +10,13 @@ namespace WorldWarOneTools
         [HideInInspector] public bool isGrounded;
         [HideInInspector] public bool isCrouching;
         [HideInInspector] public bool isDashing;
+        [HideInInspector] public bool isWallSliding;
 
         protected Collider2D col;
         protected Rigidbody2D rb2d;
         protected Animator anim;
         protected HorizontalMovement horizontalMovement;
+        protected Jump jump;
 
         private Vector2 facingLeft;
 
@@ -25,11 +27,12 @@ namespace WorldWarOneTools
 
         protected virtual void Initialization()
         {
-            //Get player Collider and RigidBody
             col = GetComponent<Collider2D>();
             rb2d = GetComponent<Rigidbody2D>();
             anim = GetComponent<Animator>();
             horizontalMovement = GetComponent<HorizontalMovement>();
+            jump = GetComponent<Jump>();
+
             facingLeft = new Vector2(-transform.localScale.x, transform.localScale.y);
         }
 
