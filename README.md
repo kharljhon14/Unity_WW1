@@ -20,3 +20,9 @@ Double Jump,
 Dashing,
 Crouching,
 WallJump / WallSlide
+
+## 04/14/2021
+1.Merge Login with Gameplay,
+2.Character Select,
+3.at least 2 levels
+
