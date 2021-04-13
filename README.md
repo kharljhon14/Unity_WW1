@@ -4,6 +4,7 @@ Unity 2D platformer
 ## Marion TODO
 * Login / Register
 * Save Progess
+* Menu UI
 
 ## Karl TODO
 * Core Mechanics
