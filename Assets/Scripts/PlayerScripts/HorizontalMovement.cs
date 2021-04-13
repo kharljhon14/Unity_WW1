@@ -57,6 +57,7 @@ namespace WorldWarOneTools
         {
             if (MovementPressed())
             {
+                anim.SetBool("Moving", true);
                 //Declare acceleration
                 acceleration = maxSpeed / timeTillMaxSpeed; // Speed needs to ramp up to get to fullspeed. put 0 in timeTillMaxSpeed for no ramp up speed
 
@@ -67,6 +68,7 @@ namespace WorldWarOneTools
             }
             else
             {
+                anim.SetBool("Moving", false);
                 //Set all movement values to zero
                 acceleration = 0;
                 runTime = 0;
@@ -75,6 +77,7 @@ namespace WorldWarOneTools
 
             SpeedMultiplier();
             //Move Player
+            anim.SetFloat("CurrentSpeed", currentSpeed);
             rb2d.velocity = new Vector2(currentSpeed, rb2d.velocity.y);
         }
 

@@ -38,6 +38,7 @@ namespace WorldWarOneTools
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                //To Check if the player is falling and disable jumping
                 if (!character.isGrounded && numberOfJumpsLeft == maxJumps)
                 {
                     isJumping = false;
@@ -57,7 +58,6 @@ namespace WorldWarOneTools
                     isJumping = true;
                 }
                     
-
                 return true;
             }
                
@@ -117,21 +117,25 @@ namespace WorldWarOneTools
 
         protected virtual void GroundCheck()
         {
+            //Checking if the player is grounded and reseting the numberOfJumpsLeft
             if (CollisionCheck(Vector2.down, distanceToCollider, collisionLayer) && !isJumping)
             {
+                anim.SetBool("Grounded", true);
                 character.isGrounded = true;
                 numberOfJumpsLeft = maxJumps;
             }
 
             else
             {
+                anim.SetBool("Grounded", false);
                 character.isGrounded = false;
 
-                if(Falling(0) && rb2d.velocity.y < maxFallSpeed)
+                if(Falling(0) && rb2d.velocity.y < maxFallSpeed) //Limit the FallSpeed;
                 {
                     rb2d.velocity = new Vector2(rb2d.velocity.x, maxFallSpeed);
                 }
-            }           
+            }
+            anim.SetFloat("VerticalSpeed", rb2d.velocity.y);
         }
     }
 

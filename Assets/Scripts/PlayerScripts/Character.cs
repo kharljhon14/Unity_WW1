@@ -11,6 +11,7 @@ namespace WorldWarOneTools
 
         protected Collider2D col;
         protected Rigidbody2D rb2d;
+        protected Animator anim;
 
         private Vector2 facingLeft;
 
@@ -24,6 +25,7 @@ namespace WorldWarOneTools
             //Get player Collider and RigidBody
             col = GetComponent<Collider2D>();
             rb2d = GetComponent<Rigidbody2D>();
+            anim = GetComponent<Animator>();
             facingLeft = new Vector2(-transform.localScale.x, transform.localScale.y);
         }
 
