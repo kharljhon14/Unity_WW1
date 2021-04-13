@@ -8,3 +8,13 @@ Save Progess
 ## Karl TODO
 Core Mechanics
 Gameplay
+
+###Completed
+[PLAYER]
+Idle
+Moving
+Sprinting
+Double Jump
+Dashing
+Crouching
+WallJump / WallSlide
