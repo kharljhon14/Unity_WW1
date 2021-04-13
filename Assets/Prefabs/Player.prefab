@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1118705915703831801}
   - component: {fileID: 387999144171751355}
   - component: {fileID: 1176383434}
+  - component: {fileID: -3970008218632824210}
   - component: {fileID: 5021996246616320893}
   m_Layer: 0
   m_Name: Player
@@ -72,8 +73,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.4165249, y: -0.17}
-  m_Size: {x: 2.1367683, y: 3.5959876}
+  m_Offset: {x: -0.4165249, y: 0}
+  m_Size: {x: 2.1367683, y: 3.7919495}
   m_Direction: 0
 --- !u!212 &5021996246616320892
 SpriteRenderer:
@@ -141,6 +142,7 @@ MonoBehaviour:
   isFacingLeft: 0
   isGrounded: 0
   isCrouching: 0
+  isDashing: 0
 --- !u!114 &1118705915703831801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,6 +158,7 @@ MonoBehaviour:
   isFacingLeft: 0
   isGrounded: 0
   isCrouching: 0
+  isDashing: 0
   timeTillMaxSpeed: 0.5
   maxSpeed: 6
   sprintMultiplier: 1.5
@@ -175,6 +178,7 @@ MonoBehaviour:
   isFacingLeft: 0
   isGrounded: 0
   isCrouching: 0
+  isDashing: 0
   limitAirJumps: 1
   maxJumps: 2
   jumpForce: 100
@@ -204,7 +208,33 @@ MonoBehaviour:
   isFacingLeft: 0
   isGrounded: 0
   isCrouching: 0
-  colliderMultiplier: 0.5
+  isDashing: 0
+  colliderMultiplier: 0
+  layers:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &-3970008218632824210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5021996246616320894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19e6431f5fe48d4b8de50dd547d896b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFacingLeft: 0
+  isGrounded: 0
+  isCrouching: 0
+  isDashing: 0
+  dashForce: 150
+  dashCooldownTime: 3
+  dashAmountTime: 0.5
+  dashingLayer:
+    serializedVersion: 2
+    m_Bits: 192
 --- !u!95 &5021996246616320893
 Animator:
   serializedVersion: 3
