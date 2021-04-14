@@ -2,15 +2,15 @@
 Unity 2D platformer
 
 ## Marion TODO
-* Login / Register
+* Login / Register [Done]
 * Save Progess
-* Menu UI
+* Menu UI [Semi Done]
 
 ## Karl TODO
-* Core Mechanics
+* Core Mechanics [Semi Done]
 * Gameplay
-* Shooting
-* Weapon Inventory
+* Shooting [Semi Done]
+* Weapon Inventory [Semi Done]
 * Checkpoint
 * Game Managers
 
@@ -26,7 +26,7 @@ Unity 2D platformer
 
 ## 04/14/2021
 ### [IMPORTANT]
-1. Merge Login with Gameplay,
+1. Merge Login with Gameplay, 
 2. Character Select,
 3. at least 2 levels
 
