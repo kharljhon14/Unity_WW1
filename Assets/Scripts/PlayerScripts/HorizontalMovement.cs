@@ -25,7 +25,6 @@ namespace WorldWarOneTools
             
         }
 
-
         protected virtual void FixedUpdate()
         {
             Movement();

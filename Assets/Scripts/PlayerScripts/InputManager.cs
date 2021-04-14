@@ -6,15 +6,26 @@ public class InputManager : MonoBehaviour
 {
     [SerializeField] protected Joystick joystick;
     [HideInInspector] public float horizontalInput;
+    private Animator anim;
+
+    private void Awake()
+    {
+        if (joystick == null)
+            joystick = GameObject.FindGameObjectWithTag("Joystick").GetComponent<Joystick>();
+    }
 
     private void Update()
     {
-        CrouchHeld();
-        DashPressed();
-        SprintingHeld();
-        JumpPressed();
-        JumpHeld();
-        MovementPressed();
+        if (joystick)
+        {
+            CrouchHeld();
+            DashPressed();
+            SprintingHeld();
+            JumpPressed();
+            JumpHeld();
+            MovementPressed();
+        }
+        WeaponFired();
     }
 
     public virtual bool MovementPressed()
@@ -80,4 +91,15 @@ public class InputManager : MonoBehaviour
         else
             return false;
     }
+
+    public virtual bool WeaponFired()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            return true;
+        }
+        else
+            return false;
+    }
+
 }

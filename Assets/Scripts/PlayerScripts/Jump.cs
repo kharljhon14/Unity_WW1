@@ -96,7 +96,7 @@ namespace WorldWarOneTools
         protected virtual void IsJumping()
         {
             //Add Y velocity force in the rigidbody
-            if (isJumping)
+            if (isJumping && !character.isCrouching)
             {
                 rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
                 rb2d.AddForce(Vector2.up * jumpForce);

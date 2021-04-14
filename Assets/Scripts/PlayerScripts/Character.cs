@@ -18,6 +18,7 @@ namespace WorldWarOneTools
         protected HorizontalMovement horizontalMovement;
         protected Jump jump;
         protected InputManager inputManager;
+        protected ObjectPooling objectPooling;
         
 
         private Vector2 facingLeft;
@@ -35,6 +36,7 @@ namespace WorldWarOneTools
             horizontalMovement = GetComponent<HorizontalMovement>();
             jump = GetComponent<Jump>();
             inputManager = GetComponent<InputManager>();
+            objectPooling = ObjectPooling.Instance;
 
             facingLeft = new Vector2(-transform.localScale.x, transform.localScale.y);
         }

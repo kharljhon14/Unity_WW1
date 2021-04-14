@@ -21,10 +21,10 @@ namespace WorldWarOneTools
             base.Initialization();
             playerCollider = GetComponent<CapsuleCollider2D>();
             originalCollider = playerCollider.size;
-            crouchingCollider = new Vector2(playerCollider.size.x, (2.67096f));
+            crouchingCollider = new Vector2(playerCollider.size.x, (playerCollider.size.y * colliderMultiplier));
             originalOffset = playerCollider.offset;
-            //crouchingOffset = new Vector2(playerCollider.offset.x, (playerCollider.offset.y * colliderMultiplier));
-            crouchingOffset = new Vector2(originalOffset.x, -0.5604947f);
+            crouchingOffset = new Vector2(playerCollider.offset.x, (playerCollider.offset.y * colliderMultiplier));
+            //crouchingOffset = new Vector2(originalOffset.x, -0.4780498f);
         }
 
         protected virtual void FixedUpdate()
@@ -46,7 +46,7 @@ namespace WorldWarOneTools
             {
                 if (character.isCrouching)
                 {
-                    if(CollisionCheck(Vector2.up, playerCollider.size.y * .25f, layers))
+                    if(CollisionCheck(Vector2.up, playerCollider.size.y * .50f, layers))
                     {
                         return;
                     }
