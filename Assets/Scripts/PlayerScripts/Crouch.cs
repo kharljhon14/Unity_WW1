@@ -21,10 +21,17 @@ namespace WorldWarOneTools
             base.Initialization();
             playerCollider = GetComponent<CapsuleCollider2D>();
             originalCollider = playerCollider.size;
+<<<<<<< Updated upstream
             crouchingCollider = new Vector2(playerCollider.size.x, (playerCollider.size.y * colliderMultiplier));
             originalOffset = playerCollider.offset;
             crouchingOffset = new Vector2(playerCollider.offset.x, (playerCollider.offset.y * colliderMultiplier));
             //crouchingOffset = new Vector2(originalOffset.x, -0.4780498f);
+=======
+            crouchingCollider = new Vector2(playerCollider.size.x, (0.9477921f));
+            originalOffset = playerCollider.offset;
+            //crouchingOffset = new Vector2(playerCollider.offset.x, (playerCollider.offset.y * colliderMultiplier));
+            crouchingOffset = new Vector2(originalOffset.x, -0.4780498f);
+>>>>>>> Stashed changes
         }
 
         protected virtual void FixedUpdate()
@@ -46,7 +53,11 @@ namespace WorldWarOneTools
             {
                 if (character.isCrouching)
                 {
+<<<<<<< Updated upstream
                     if(CollisionCheck(Vector2.up, playerCollider.size.y * .50f, layers))
+=======
+                    if(CollisionCheck(Vector2.up, playerCollider.size.y * 1f, layers))
+>>>>>>> Stashed changes
                     {
                         return;
                     }
@@ -60,7 +71,7 @@ namespace WorldWarOneTools
             playerCollider.offset = originalOffset;
             yield return new WaitForSeconds(.01f);
             playerCollider.size = originalCollider;
-            yield return new WaitForSeconds(.15f);
+            yield return new WaitForSeconds(.2f);
             character.isCrouching = false;
             //Need Crouching Animation
             //anim.SetBool("Crouching", false);

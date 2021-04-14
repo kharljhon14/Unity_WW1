@@ -10,16 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 166841e5d843d664a8124d10bafa9cdb, type: 3}
-  m_Name: BaseProjectile
+  m_Name: SecondProjectile
   m_EditorClassIdentifier: 
-  projectile: {fileID: 12515677054351435, guid: 944ac1e2e3827674c84f469bf9a09c70, type: 3}
-  projectileSpeed: 20
-  amountToPool: 20
+  projectile: {fileID: 12515677054351435, guid: c8132527b628c0449ac3d60f7ff7b7ab, type: 3}
+  projectileSpeed: 10
+  amountToPool: 2
   lifeTime: 1
-<<<<<<< Updated upstream
-=======
   automatic: 0
-  timeBetweenShots: 0.2
+  timeBetweenShots: 2
   canExpandPool: 0
   canResetPool: 0
->>>>>>> Stashed changes

@@ -7,6 +7,7 @@ namespace WorldWarOneTools
     public class Character : MonoBehaviour
     {
         [HideInInspector] public bool isFacingLeft;
+        [HideInInspector] public bool isJumping;
         [HideInInspector] public bool isGrounded;
         [HideInInspector] public bool isCrouching;
         [HideInInspector] public bool isDashing;
@@ -63,7 +64,7 @@ namespace WorldWarOneTools
             return false;
         }
 
-        protected virtual bool Falling(float velocity)
+        public virtual bool Falling(float velocity)
         {
             if (!isGrounded && rb2d.velocity.y < velocity)
                 return true;

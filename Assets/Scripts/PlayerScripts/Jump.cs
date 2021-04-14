@@ -25,7 +25,6 @@ namespace WorldWarOneTools
         [SerializeField] protected float wallJumpTime;
         public LayerMask collisionLayer;
 
-        private bool isJumping;
         private bool isWallJumping;
         private float jumpCountDown;
         private int numberOfJumpsLeft;
@@ -51,13 +50,13 @@ namespace WorldWarOneTools
                 //To Check if the player is falling and disable jumping
                 if (!character.isGrounded && numberOfJumpsLeft == maxJumps)
                 {
-                    isJumping = false;
+                    character.isJumping = false;
                     return false;
                 }
 
-                if(limitAirJumps && Falling(acceptedFallSpeed))//Check to see if want to limit air jump
+                if(limitAirJumps && character.Falling(acceptedFallSpeed))//Check to see if want to limit air jump
                 {
-                    isJumping = false;
+                    character.isJumping = false;
                     return false;
                 }
 
@@ -72,7 +71,7 @@ namespace WorldWarOneTools
                 {
                     rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
                     jumpCountDown = buttonHoldTime;
-                    isJumping = true;
+                    character.isJumping = true;
                     fallCountDown = glideTime;
                 }
                     
@@ -96,7 +95,11 @@ namespace WorldWarOneTools
         protected virtual void IsJumping()
         {
             //Add Y velocity force in the rigidbody
+<<<<<<< Updated upstream
             if (isJumping && !character.isCrouching)
+=======
+            if (character.isJumping && !character.isCrouching)
+>>>>>>> Stashed changes
             {
                 rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
                 rb2d.AddForce(Vector2.up * jumpForce);
@@ -111,7 +114,11 @@ namespace WorldWarOneTools
 
         protected virtual void Gliding()
         {
+<<<<<<< Updated upstream
             if(Falling(0) && inputManager.JumpHeld())
+=======
+            if(character.Falling(0) && inputManager.JumpHeld())
+>>>>>>> Stashed changes
             {
                 fallCountDown -= Time.deltaTime;
                 if(fallCountDown > 0 && rb2d.velocity.y > acceptedFallSpeed)
@@ -129,13 +136,13 @@ namespace WorldWarOneTools
                 if (jumpCountDown <= 0)
                 {
                     jumpCountDown = 0;
-                    isJumping = false;
+                    character.isJumping = false;
                 }
                 else
                     rb2d.AddForce(Vector2.up * holdForce);
             }
             else
-                isJumping = false;
+                character.isJumping = false;
         }
 
         protected virtual void GroundCheck()
@@ -154,7 +161,7 @@ namespace WorldWarOneTools
                 anim.SetBool("Grounded", false);
                 character.isGrounded = false;
 
-                if(Falling(0) && rb2d.velocity.y < maxFallSpeed) //Limit the FallSpeed;
+                if(character.Falling(0) && rb2d.velocity.y < maxFallSpeed) //Limit the FallSpeed;
                 {
                     rb2d.velocity = new Vector2(rb2d.velocity.x, maxFallSpeed);
                 }

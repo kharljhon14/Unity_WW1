@@ -59,7 +59,11 @@ namespace WorldWarOneTools
             }
         }
 
+<<<<<<< Updated upstream
         protected virtual void DestroyProjectile()
+=======
+        public virtual void DestroyProjectile()
+>>>>>>> Stashed changes
         {
             projectileLifeTime = weapon.lifeTime;
             gameObject.SetActive(false);

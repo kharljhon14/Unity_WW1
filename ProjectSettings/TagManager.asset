@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Joystick
+<<<<<<< Updated upstream
+=======
+  - Second Bullet
+  - Bullet
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

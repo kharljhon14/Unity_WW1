@@ -25,7 +25,13 @@ public class InputManager : MonoBehaviour
             JumpHeld();
             MovementPressed();
         }
+<<<<<<< Updated upstream
         WeaponFired();
+=======
+
+        WeaponFired();
+        WeaponFiredHeld();
+>>>>>>> Stashed changes
     }
 
     public virtual bool MovementPressed()
@@ -102,4 +108,27 @@ public class InputManager : MonoBehaviour
             return false;
     }
 
+<<<<<<< Updated upstream
+=======
+    public virtual bool WeaponFiredHeld()
+    {
+        if (Input.GetButton("Fire1"))
+        {
+            return true;
+        }
+        else
+            return false;
+    }
+
+    public virtual bool ChangeWeaponPressed()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            return true;
+        }
+        else
+            return false;
+    }
+
+>>>>>>> Stashed changes
 }

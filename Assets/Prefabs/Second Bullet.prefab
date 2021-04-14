@@ -14,12 +14,8 @@ GameObject:
   - component: {fileID: 12515677054351439}
   - component: {fileID: -1257360949842393452}
   m_Layer: 0
-  m_Name: Bullet
-<<<<<<< Updated upstream
-  m_TagString: Untagged
-=======
-  m_TagString: Bullet
->>>>>>> Stashed changes
+  m_Name: Second Bullet
+  m_TagString: Second Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12515677054351435}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -11.35, y: 6.63, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &12515677054351434
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -78,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 1264499051
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 60f2f1ec3e3d2834882dbc5819ce1b85, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9bf0a3dd7795ea54590b9700faa43e81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -138,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af45bd3bc38c27a46972d40c8a28f6c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 11400000, guid: 7b651742792a6704faa0e6b54135ca10, type: 2}
+  weapon: {fileID: 11400000, guid: 919a7e117c08bac4794c22c4ece5e62e, type: 2}
   fired: 0
   left: 0
   projectileLifeTime: 0
