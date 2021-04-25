@@ -7,17 +7,9 @@ namespace WorldWarOneTools
     public class Weapon : Abilities
     {
         [SerializeField] protected List<WeaponTypes> weaponTypes;
-<<<<<<< Updated upstream
-        [SerializeField] protected Transform gunBarrel;
-        [SerializeField] protected Transform gunRotation;
-
-        public List<GameObject> currenPool = new List<GameObject>();
-        public GameObject currentProjectile;
-
-        private GameObject projectileParentFolder;
-=======
         [SerializeField] public Transform gunBarrel;
         [SerializeField] protected Transform gunRotation;
+        [SerializeField] private GameObject particle;
 
         [HideInInspector] public List<GameObject> currenPool = new List<GameObject>();
         [HideInInspector] public List<GameObject> bulletsToReset = new List<GameObject>();
@@ -27,31 +19,24 @@ namespace WorldWarOneTools
         public WeaponTypes currentWeapon;
         private GameObject projectileParentFolder;
         private float currentTimeBetweenShots;
->>>>>>> Stashed changes
 
         protected override void Initialization()
         {
             base.Initialization();
-<<<<<<< Updated upstream
-            foreach(WeaponTypes weapon in weaponTypes)
-            {
-                GameObject newPool = new GameObject();
-                projectileParentFolder = newPool;
-                objectPooling.CreatePool(weapon, currenPool, projectileParentFolder);
-            }
-=======
             ChangeWeapon();
->>>>>>> Stashed changes
         }
 
         protected virtual void Update()
         {
+            if (gameManager.gamePaused)
+            {
+                return;
+            }
+
             if (inputManager.WeaponFired())
             {
                 FireWeapon();
             }
-<<<<<<< Updated upstream
-=======
 
             if (inputManager.ChangeWeaponPressed())
             {
@@ -61,33 +46,29 @@ namespace WorldWarOneTools
         protected virtual void FixedUpdate()
         {
             FireWeaponHeld();
->>>>>>> Stashed changes
         }
 
         protected virtual void FireWeapon()
         {
-<<<<<<< Updated upstream
-            currentProjectile = objectPooling.GetObject(currenPool);
-=======
-            currentProjectile = objectPooling.GetObject(currenPool, currentWeapon, this, projectileParentFolder, currentWeapon.projectile.tag);
->>>>>>> Stashed changes
-            if(currentProjectile != null)
+            if (!character.isDead)
             {
-                Invoke("PlaceProjectile", .1f);
-            }
-<<<<<<< Updated upstream
-=======
+                currentProjectile = objectPooling.GetObject(currenPool, currentWeapon, this, projectileParentFolder, currentWeapon.projectile.tag);
+                if (currentProjectile != null)
+                {
+                    AudioManager.instance.PlaySFX(0);
+                    Invoke("PlaceProjectile", .1f);
+                }
 
-            currentTimeBetweenShots = currentWeapon.timeBetweenShots;
+                currentTimeBetweenShots = currentWeapon.timeBetweenShots;
+            }    
         }
 
         protected virtual void FireWeaponHeld()
         {
-            if (inputManager.WeaponFiredHeld())
+            if (inputManager.WeaponFiredHeld() && !character.isDead)
             {
                 if (currentWeapon.automatic)
                 {
-                    currentTimeBetweenShots = currentWeapon.lifeTime;
                     currentTimeBetweenShots -= Time.deltaTime;
                    
                     if (currentTimeBetweenShots < 0)
@@ -95,6 +76,8 @@ namespace WorldWarOneTools
                         currentProjectile = objectPooling.GetObject(currenPool, currentWeapon, this, projectileParentFolder, currentWeapon.projectile.tag);
                         if (currentProjectile != null)
                         {
+
+                            AudioManager.instance.PlaySFX(0);
                             Invoke("PlaceProjectile", .1f);
                         }
 
@@ -103,10 +86,8 @@ namespace WorldWarOneTools
                 }
             }
         }
-
         protected virtual void ChangeWeapon()
         {
-
             bool matched = new bool();
 
             for (int i = 0; i < weaponTypes.Count; i++)
@@ -159,7 +140,6 @@ namespace WorldWarOneTools
 
             if (currentWeapon.canResetPool)
                 bulletsToReset.Clear();
->>>>>>> Stashed changes
         }
 
         protected virtual void PlaceProjectile()
@@ -168,10 +148,19 @@ namespace WorldWarOneTools
             currentProjectile.transform.rotation = gunRotation.rotation;
             currentProjectile.SetActive(true);
             if (!character.isFacingLeft)
+            {
+                GameObject newEffect = Instantiate(particle, gunBarrel.position, Quaternion.identity);
+                newEffect.transform.parent = transform;
                 currentProjectile.GetComponent<Projectile>().left = false;
+            }
 
             else
+            {
+                GameObject newEffect = Instantiate(particle, gunBarrel.position, Quaternion.Euler(0, 0, 180));
+                newEffect.transform.parent = transform;
                 currentProjectile.GetComponent<Projectile>().left = true;
+            }
+                
 
             currentProjectile.GetComponent<Projectile>().fired = true;
         }

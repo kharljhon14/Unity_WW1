@@ -7,6 +7,8 @@ namespace WorldWarOneTools
     public class Projectile : MonoBehaviour
     {
         [SerializeField] protected WeaponTypes weapon;
+        [SerializeField] protected int damageAmount;
+        [SerializeField] protected LayerMask damageLayer;
 
         public bool fired;
         public bool left;
@@ -59,11 +61,27 @@ namespace WorldWarOneTools
             }
         }
 
-<<<<<<< Updated upstream
-        protected virtual void DestroyProjectile()
-=======
+        protected virtual void OnTriggerEnter2D(Collider2D collision)
+        {
+            if ((1 << collision.gameObject.layer & damageLayer) != 0)
+            {
+                if(collision.gameObject.GetComponent<Health>() != null)
+                    collision.gameObject.GetComponent<Health>().DealDamage(damageAmount);
+
+                if (collision.CompareTag("Player"))
+                {
+                    if(collision.transform.position.x < transform.position.x)
+                        collision.gameObject.GetComponent<PlayerHealth>().left = false;
+
+                    else
+                        collision.gameObject.GetComponent<PlayerHealth>().left = true;
+                }
+
+                DestroyProjectile();
+            }
+        }
+
         public virtual void DestroyProjectile()
->>>>>>> Stashed changes
         {
             projectileLifeTime = weapon.lifeTime;
             gameObject.SetActive(false);

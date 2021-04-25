@@ -15,6 +15,9 @@ AnimatorStateTransition:
     m_ConditionEvent: Grounded
     m_EventTreshold: 0
   - m_ConditionMode: 2
+    m_ConditionEvent: Dying
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
     m_ConditionEvent: Melee
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -62,6 +65,32 @@ BlendTree:
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
+--- !u!1102 &-6270561137047474142
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shoot
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 3fb81c19aa8937c489fd431146aa2f6d, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1101 &-5926667240623177747
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -72,6 +101,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 2
     m_ConditionEvent: Grounded
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Dying
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: Melee
@@ -211,18 +243,26 @@ AnimatorStateMachine:
     m_Position: {x: -400, y: -240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3032480972132529117}
-    m_Position: {x: 770, y: -110, z: 0}
+    m_Position: {x: -130, y: -240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4321014428424389643}
     m_Position: {x: -400, y: -140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -794498017012712513}
     m_Position: {x: -100, y: -140, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 2321537335958863194}
+    m_Position: {x: 100, y: -240, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 4726588357433368604}
+    m_Position: {x: 135, y: -175, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -7522825308471955910}
   - {fileID: 4991489962973182411}
   - {fileID: -5926667240623177747}
+  - {fileID: 7869605858468666035}
+  - {fileID: 8428877574841469481}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
@@ -282,10 +322,16 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 0}
   - m_Name: VerticalSpeed
     m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Dying
+    m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -309,6 +355,32 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+--- !u!1102 &2321537335958863194
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Death
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 188db6b896430ec4eb01e29cc0cea244, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1101 &3173024552431729856
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -334,6 +406,32 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 0
+--- !u!1102 &4726588357433368604
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Particles
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: b85b83b20f80e094fa3b851cd9d138f3, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1101 &4991489962973182411
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -349,6 +447,9 @@ AnimatorStateTransition:
     m_ConditionEvent: Grounded
     m_EventTreshold: 0
   - m_ConditionMode: 2
+    m_ConditionEvent: Dying
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
     m_ConditionEvent: Melee
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -362,6 +463,31 @@ AnimatorStateTransition:
   m_ExitTime: 0.75
   m_HasExitTime: 0
   m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0
+--- !u!1101 &7869605858468666035
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Dying
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 2321537335958863194}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 0
@@ -391,3 +517,28 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1101 &8428877574841469481
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Melee
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 7905649340089179562}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0.74999994
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 0

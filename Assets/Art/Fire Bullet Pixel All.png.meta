@@ -1,0 +1,3996 @@
+fileFormatVersion: 2
+guid: c8d84ad079b74484f978cc685becd5a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3487967571191127912
+    second: Fire Bullet Pixel All_0
+  - first:
+      213: 8123690483314685083
+    second: Fire Bullet Pixel All_1
+  - first:
+      213: 3399825287507068509
+    second: Fire Bullet Pixel All_2
+  - first:
+      213: -3297927675312246364
+    second: Fire Bullet Pixel All_3
+  - first:
+      213: -2394979289694853329
+    second: Fire Bullet Pixel All_4
+  - first:
+      213: 9170508635106652693
+    second: Fire Bullet Pixel All_5
+  - first:
+      213: -858449736963804660
+    second: Fire Bullet Pixel All_6
+  - first:
+      213: 3692868592958232222
+    second: Fire Bullet Pixel All_7
+  - first:
+      213: -1320614636450786633
+    second: Fire Bullet Pixel All_8
+  - first:
+      213: -8865062803549965557
+    second: Fire Bullet Pixel All_9
+  - first:
+      213: 1607637364079296962
+    second: Fire Bullet Pixel All_10
+  - first:
+      213: 82254164262249729
+    second: Fire Bullet Pixel All_11
+  - first:
+      213: -6857067994241018157
+    second: Fire Bullet Pixel All_12
+  - first:
+      213: 7694805024809541799
+    second: Fire Bullet Pixel All_13
+  - first:
+      213: 2866420322111624991
+    second: Fire Bullet Pixel All_14
+  - first:
+      213: -1399462922515910626
+    second: Fire Bullet Pixel All_15
+  - first:
+      213: 5215760587287460531
+    second: Fire Bullet Pixel All_16
+  - first:
+      213: 1229915880680651626
+    second: Fire Bullet Pixel All_17
+  - first:
+      213: 2790069686485348806
+    second: Fire Bullet Pixel All_18
+  - first:
+      213: 626356264307015781
+    second: Fire Bullet Pixel All_19
+  - first:
+      213: 1734922004147655113
+    second: Fire Bullet Pixel All_20
+  - first:
+      213: 5168254307717564534
+    second: Fire Bullet Pixel All_21
+  - first:
+      213: -7842529595610298992
+    second: Fire Bullet Pixel All_22
+  - first:
+      213: -2971934605136901423
+    second: Fire Bullet Pixel All_23
+  - first:
+      213: -1024450984933249617
+    second: Fire Bullet Pixel All_24
+  - first:
+      213: 2303610617858912622
+    second: Fire Bullet Pixel All_25
+  - first:
+      213: -6383675954228448022
+    second: Fire Bullet Pixel All_26
+  - first:
+      213: 4647599514281399785
+    second: Fire Bullet Pixel All_27
+  - first:
+      213: 6672568117840679165
+    second: Fire Bullet Pixel All_28
+  - first:
+      213: -6174751940511864352
+    second: Fire Bullet Pixel All_29
+  - first:
+      213: -4146262048963716329
+    second: Fire Bullet Pixel All_30
+  - first:
+      213: -5778725724768704303
+    second: Fire Bullet Pixel All_31
+  - first:
+      213: -4917031511232660665
+    second: Fire Bullet Pixel All_32
+  - first:
+      213: -9127899065656560253
+    second: Fire Bullet Pixel All_33
+  - first:
+      213: 3123723240798159112
+    second: Fire Bullet Pixel All_34
+  - first:
+      213: -445442271766177095
+    second: Fire Bullet Pixel All_35
+  - first:
+      213: 1436714890874580089
+    second: Fire Bullet Pixel All_36
+  - first:
+      213: -4171878162133663161
+    second: Fire Bullet Pixel All_37
+  - first:
+      213: -3491394010359804761
+    second: Fire Bullet Pixel All_38
+  - first:
+      213: 8601661356103719806
+    second: Fire Bullet Pixel All_39
+  - first:
+      213: 1219868463271333558
+    second: Fire Bullet Pixel All_40
+  - first:
+      213: -8380230830187239842
+    second: Fire Bullet Pixel All_41
+  - first:
+      213: 76851267477925798
+    second: Fire Bullet Pixel All_42
+  - first:
+      213: 813647895975912828
+    second: Fire Bullet Pixel All_43
+  - first:
+      213: -1403650912811701936
+    second: Fire Bullet Pixel All_44
+  - first:
+      213: 8821245850706890948
+    second: Fire Bullet Pixel All_45
+  - first:
+      213: 1835176682298078073
+    second: Fire Bullet Pixel All_46
+  - first:
+      213: 257315840797825792
+    second: Fire Bullet Pixel All_47
+  - first:
+      213: 6109669657170477717
+    second: Fire Bullet Pixel All_48
+  - first:
+      213: 326554383571833519
+    second: Fire Bullet Pixel All_49
+  - first:
+      213: -5066394781770557415
+    second: Fire Bullet Pixel All_50
+  - first:
+      213: -9034623155391106759
+    second: Fire Bullet Pixel All_51
+  - first:
+      213: -1273256851496803855
+    second: Fire Bullet Pixel All_52
+  - first:
+      213: 6013141531016693973
+    second: Fire Bullet Pixel All_53
+  - first:
+      213: -6124347177645677441
+    second: Fire Bullet Pixel All_54
+  - first:
+      213: -1430645325373671523
+    second: Fire Bullet Pixel All_55
+  - first:
+      213: 3084236304905114527
+    second: Fire Bullet Pixel All_56
+  - first:
+      213: 3980166550882347814
+    second: Fire Bullet Pixel All_57
+  - first:
+      213: -954766779044254888
+    second: Fire Bullet Pixel All_58
+  - first:
+      213: -2284038772715288758
+    second: Fire Bullet Pixel All_59
+  - first:
+      213: -2997560121063451604
+    second: Fire Bullet Pixel All_60
+  - first:
+      213: -7882398667089404319
+    second: Fire Bullet Pixel All_61
+  - first:
+      213: 6961063344037854030
+    second: Fire Bullet Pixel All_62
+  - first:
+      213: 2241207586218049907
+    second: Fire Bullet Pixel All_63
+  - first:
+      213: -8907753186930252999
+    second: Fire Bullet Pixel All_64
+  - first:
+      213: 6595665309509772861
+    second: Fire Bullet Pixel All_65
+  - first:
+      213: 5390251729780710586
+    second: Fire Bullet Pixel All_66
+  - first:
+      213: -7010518989693275662
+    second: Fire Bullet Pixel All_67
+  - first:
+      213: -7863745342847514148
+    second: Fire Bullet Pixel All_68
+  - first:
+      213: -2385864538925222355
+    second: Fire Bullet Pixel All_69
+  - first:
+      213: 6545126774908333591
+    second: Fire Bullet Pixel All_70
+  - first:
+      213: -3231803269930809732
+    second: Fire Bullet Pixel All_71
+  - first:
+      213: 4777693187336983823
+    second: Fire Bullet Pixel All_72
+  - first:
+      213: -305600309753440182
+    second: Fire Bullet Pixel All_73
+  - first:
+      213: -2844889684315862538
+    second: Fire Bullet Pixel All_74
+  - first:
+      213: 4021649797933952136
+    second: Fire Bullet Pixel All_75
+  - first:
+      213: -6475097669043195398
+    second: Fire Bullet Pixel All_76
+  - first:
+      213: 2666084660714039702
+    second: Fire Bullet Pixel All_77
+  - first:
+      213: -7907966589236504350
+    second: Fire Bullet Pixel All_78
+  - first:
+      213: 423163984847660303
+    second: Fire Bullet Pixel All_79
+  - first:
+      213: 6643174452250255889
+    second: Fire Bullet Pixel All_80
+  - first:
+      213: 85066182834787589
+    second: Fire Bullet Pixel All_81
+  - first:
+      213: -1181420182006199285
+    second: Fire Bullet Pixel All_82
+  - first:
+      213: -4101481278094075533
+    second: Fire Bullet Pixel All_83
+  - first:
+      213: 4945712636854201680
+    second: Fire Bullet Pixel All_84
+  - first:
+      213: 1390848681087646236
+    second: Fire Bullet Pixel All_85
+  - first:
+      213: 5954207317573627328
+    second: Fire Bullet Pixel All_86
+  - first:
+      213: -9184574518557641093
+    second: Fire Bullet Pixel All_87
+  - first:
+      213: 518834117568912193
+    second: Fire Bullet Pixel All_88
+  - first:
+      213: 861969745528595298
+    second: Fire Bullet Pixel All_89
+  - first:
+      213: -7722733695355203974
+    second: Fire Bullet Pixel All_90
+  - first:
+      213: -4030788415360326402
+    second: Fire Bullet Pixel All_91
+  - first:
+      213: -1303025879354500270
+    second: Fire Bullet Pixel All_92
+  - first:
+      213: -2808998924325132293
+    second: Fire Bullet Pixel All_93
+  - first:
+      213: -4090935490431960013
+    second: Fire Bullet Pixel All_94
+  - first:
+      213: 7586170654696550506
+    second: Fire Bullet Pixel All_95
+  - first:
+      213: 7573674789381050483
+    second: Fire Bullet Pixel All_96
+  - first:
+      213: -9216221237479005859
+    second: Fire Bullet Pixel All_97
+  - first:
+      213: 7563366361870909
+    second: Fire Bullet Pixel All_98
+  - first:
+      213: -3175500619936023369
+    second: Fire Bullet Pixel All_99
+  - first:
+      213: -1163807254947793268
+    second: Fire Bullet Pixel All_100
+  - first:
+      213: 2939598593763689204
+    second: Fire Bullet Pixel All_101
+  - first:
+      213: -3461296911639680678
+    second: Fire Bullet Pixel All_102
+  - first:
+      213: -8300757004692569801
+    second: Fire Bullet Pixel All_103
+  - first:
+      213: 3338198402563228542
+    second: Fire Bullet Pixel All_104
+  - first:
+      213: -748656228131139856
+    second: Fire Bullet Pixel All_105
+  - first:
+      213: 574364673154111457
+    second: Fire Bullet Pixel All_106
+  - first:
+      213: -4040881129930124503
+    second: Fire Bullet Pixel All_107
+  - first:
+      213: -632476306536006174
+    second: Fire Bullet Pixel All_108
+  - first:
+      213: -4758183940761716038
+    second: Fire Bullet Pixel All_109
+  - first:
+      213: 3045231486571936038
+    second: Fire Bullet Pixel All_110
+  - first:
+      213: 8796945540472724052
+    second: Fire Bullet Pixel All_111
+  - first:
+      213: -8785386926271059096
+    second: Fire Bullet Pixel All_112
+  - first:
+      213: -7700867199245276098
+    second: Fire Bullet Pixel All_113
+  - first:
+      213: -5052735922690501122
+    second: Fire Bullet Pixel All_114
+  - first:
+      213: 6687949378263526810
+    second: Fire Bullet Pixel All_115
+  - first:
+      213: -2030943531639422034
+    second: Fire Bullet Pixel All_116
+  - first:
+      213: -3358160232128951592
+    second: Fire Bullet Pixel All_117
+  - first:
+      213: 2158186245281827208
+    second: Fire Bullet Pixel All_118
+  - first:
+      213: -1596869061156114412
+    second: Fire Bullet Pixel All_119
+  - first:
+      213: 1925581993857237675
+    second: Fire Bullet Pixel All_120
+  - first:
+      213: 1053933264055886127
+    second: Fire Bullet Pixel All_121
+  - first:
+      213: -4351813740285038048
+    second: Fire Bullet Pixel All_122
+  - first:
+      213: -3804286152692991822
+    second: Fire Bullet Pixel All_123
+  - first:
+      213: 3991331951357510859
+    second: Fire Bullet Pixel All_124
+  - first:
+      213: -7246266432057700559
+    second: Fire Bullet Pixel All_125
+  - first:
+      213: -8586578369861971653
+    second: Fire Bullet Pixel All_126
+  - first:
+      213: 3200999420651072753
+    second: Fire Bullet Pixel All_127
+  - first:
+      213: -723958360112168441
+    second: Fire Bullet Pixel All_128
+  - first:
+      213: -589443875223446046
+    second: Fire Bullet Pixel All_129
+  - first:
+      213: 7408285353274033503
+    second: Fire Bullet Pixel All_130
+  - first:
+      213: 524701561821759334
+    second: Fire Bullet Pixel All_131
+  - first:
+      213: -7751867655939392101
+    second: Fire Bullet Pixel All_132
+  - first:
+      213: -2227952954388856525
+    second: Fire Bullet Pixel All_133
+  - first:
+      213: 5827433628413130874
+    second: Fire Bullet Pixel All_134
+  - first:
+      213: -8959621177776470494
+    second: Fire Bullet Pixel All_135
+  - first:
+      213: 4369627181093492139
+    second: Fire Bullet Pixel All_136
+  - first:
+      213: 4675840335728954463
+    second: Fire Bullet Pixel All_137
+  - first:
+      213: -5981173602556365933
+    second: Fire Bullet Pixel All_138
+  - first:
+      213: -7399284318840497204
+    second: Fire Bullet Pixel All_139
+  - first:
+      213: -100439636806010981
+    second: Fire Bullet Pixel All_140
+  - first:
+      213: 2114503691735883395
+    second: Fire Bullet Pixel All_141
+  - first:
+      213: -7501576780758723390
+    second: Fire Bullet Pixel All_142
+  - first:
+      213: 6538453842538200438
+    second: Fire Bullet Pixel All_143
+  - first:
+      213: -780921300526420393
+    second: Fire Bullet Pixel All_144
+  - first:
+      213: -9139425030579180153
+    second: Fire Bullet Pixel All_145
+  - first:
+      213: 7059946053035141204
+    second: Fire Bullet Pixel All_146
+  - first:
+      213: 8698380970511320431
+    second: Fire Bullet Pixel All_147
+  - first:
+      213: -3640392639968069968
+    second: Fire Bullet Pixel All_148
+  - first:
+      213: 2823250384161430362
+    second: Fire Bullet Pixel All_149
+  - first:
+      213: -6549140380118639439
+    second: Fire Bullet Pixel All_150
+  - first:
+      213: 4736514122413840705
+    second: Fire Bullet Pixel All_151
+  - first:
+      213: -4961389216810752386
+    second: Fire Bullet Pixel All_152
+  - first:
+      213: -6618272876733437015
+    second: Fire Bullet Pixel All_153
+  - first:
+      213: 2339380908259949609
+    second: Fire Bullet Pixel All_154
+  - first:
+      213: -4740247389502553201
+    second: Fire Bullet Pixel All_155
+  - first:
+      213: -5753995474924428760
+    second: Fire Bullet Pixel All_156
+  - first:
+      213: -7350551978774307412
+    second: Fire Bullet Pixel All_157
+  - first:
+      213: -2455592973905299670
+    second: Fire Bullet Pixel All_158
+  - first:
+      213: -5317190245915058266
+    second: Fire Bullet Pixel All_159
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 262
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890221b59ff389fc0800000000000000
+      internalID: -3487967571191127912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 261
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94713314752db070800000000000000
+      internalID: 8123690483314685083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 261
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56cf30061b9e2f20800000000000000
+      internalID: 3399825287507068509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 261
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a17512a0486b32d0800000000000000
+      internalID: -3297927675312246364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 261
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f272251760353ced0800000000000000
+      internalID: -2394979289694853329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 260
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5123f252401344f70800000000000000
+      internalID: 9170508635106652693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 260
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02beb2338c2614f0800000000000000
+      internalID: -858449736963804660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 260
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96d87d6b64bf3330800000000000000
+      internalID: 3692868592958232222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 260
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b25b2d2cfb3cade0800000000000000
+      internalID: -1320614636450786633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 260
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0330ea6958f8f480800000000000000
+      internalID: -8865062803549965557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 260
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1879d3aa97f4610800000000000000
+      internalID: 1607637364079296962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_11
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 260
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105e5220ab9342100800000000000000
+      internalID: 82254164262249729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 260
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d650925dfcc6d0a0800000000000000
+      internalID: -6857067994241018157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 260
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0e9a7b66079ca60800000000000000
+      internalID: 7694805024809541799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_14
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 260
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f179c64981297c720800000000000000
+      internalID: 2866420322111624991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_15
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 259
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10fb1bf2eb149ce0800000000000000
+      internalID: -1399462922515910626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 259
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba70ceae9a126840800000000000000
+      internalID: 5215760587287460531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_17
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 259
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bf4932af9811110800000000000000
+      internalID: 1229915880680651626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_18
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 259
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c17b81f89158b620800000000000000
+      internalID: 2790069686485348806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_19
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 258
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5604cdc24b341b800800000000000000
+      internalID: 626356264307015781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_20
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 258
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1da3aee5ea31810800000000000000
+      internalID: 1734922004147655113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_21
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 257
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678436809e359b740800000000000000
+      internalID: 5168254307717564534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 258
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095092162ecb92390800000000000000
+      internalID: -7842529595610298992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 258
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dacf1df83191c6d0800000000000000
+      internalID: -2971934605136901423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_24
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad2149c14b68c1f0800000000000000
+      internalID: -1024450984933249617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e617c42e6a118ff10800000000000000
+      internalID: 2303610617858912622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 214
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4b203ba80a867a0800000000000000
+      internalID: -6383675954228448022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_27
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 245
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5550b52279f7040800000000000000
+      internalID: 4647599514281399785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_28
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 245
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df09d73b959b99c50800000000000000
+      internalID: 6672568117840679165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 245
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9e2a943dfde4aa0800000000000000
+      internalID: -6174751940511864352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 245
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b95d162a48576c0800000000000000
+      internalID: -4146262048963716329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_31
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 245
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8efb00297ddcfa0800000000000000
+      internalID: -5778725724768704303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 245
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b339f54e133cbb0800000000000000
+      internalID: -4917031511232660665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_33
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 245
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385bbe55920335180800000000000000
+      internalID: -9127899065656560253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_34
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 244
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8010860ccb1b95b20800000000000000
+      internalID: 3123723240798159112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_35
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 244
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba1f672d9871d9f0800000000000000
+      internalID: -445442271766177095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_36
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 244
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ce71ac49c30f310800000000000000
+      internalID: 1436714890874580089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_37
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 244
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74240d34ae28a16c0800000000000000
+      internalID: -4171878162133663161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_38
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 243
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acc39155a31c8fc0800000000000000
+      internalID: -3491394010359804761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 242
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b54c80e6d3f5770800000000000000
+      internalID: 8601661356103719806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_40
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 243
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be4df977e7dde010800000000000000
+      internalID: 1219868463271333558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 245
+        width: 31
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56a9e6d57073bb80800000000000000
+      internalID: -8380230830187239842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_42
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 242
+        width: 47
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af6f8212d7011100800000000000000
+      internalID: 76851267477925798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_43
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 244
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7563e35378aa4b00800000000000000
+      internalID: 813647895975912828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_44
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 243
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059a4318eea358ce0800000000000000
+      internalID: -1403650912811701936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_45
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 243
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0d5cf3d5c5b6a70800000000000000
+      internalID: 8821245850706890948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_46
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 243
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973f478287bd77910800000000000000
+      internalID: 1835176682298078073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_47
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 241
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bd5d5d46b229300800000000000000
+      internalID: 257315840797825792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_48
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 244
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59201aace28e9c450800000000000000
+      internalID: 6109669657170477717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_49
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 244
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa255a05b77288400800000000000000
+      internalID: 326554383571833519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_50
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 243
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9185ca4f9cc80b9b0800000000000000
+      internalID: -5066394781770557415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 244
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931f46f8b129e9280800000000000000
+      internalID: -9034623155391106759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_52
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 244
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f163bab3ab745ee0800000000000000
+      internalID: -1273256851496803855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_53
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 243
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8066c0d58f27350800000000000000
+      internalID: 6013141531016693973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_54
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 220
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74634ba0b2f10ba0800000000000000
+      internalID: -6124347177645677441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_55
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 217
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97778d08a3552ce0800000000000000
+      internalID: -1430645325373671523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 216
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f939b3d04986dca20800000000000000
+      internalID: 3084236304905114527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_57
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 219
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62beb34e3646c3730800000000000000
+      internalID: 3980166550882347814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_58
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 217
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b29bb4cacffb2f0800000000000000
+      internalID: -954766779044254888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_59
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 216
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47061b66d67d40e0800000000000000
+      internalID: -2284038772715288758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_60
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 214
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24d22f93f68666d0800000000000000
+      internalID: -2997560121063451604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_61
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 215
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e9f1ecc281c9290800000000000000
+      internalID: -7882398667089404319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_62
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 220
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b7e58ea3aaa9060800000000000000
+      internalID: 6961063344037854030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_63
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 217
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371007cdc6e5a1f10800000000000000
+      internalID: 2241207586218049907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_64
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 216
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9332b2afbad416480800000000000000
+      internalID: -8907753186930252999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_65
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 213
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3662b657a2888b50800000000000000
+      internalID: 6595665309509772861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_66
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 211
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc9383b3650eca40800000000000000
+      internalID: 5390251729780710586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_67
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 194
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1b3384f12a5be90800000000000000
+      internalID: -7010518989693275662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_68
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 195
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9017b464d5ed290800000000000000
+      internalID: -7863745342847514148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_69
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 195
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26392bb7d4b3eed0800000000000000
+      internalID: -2385864538925222355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_70
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 196
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e2f4ccf16f4da50800000000000000
+      internalID: 6545126774908333591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_71
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 195
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7604df7c045623d0800000000000000
+      internalID: -3231803269930809732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_72
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 185
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05560df3a6cd4240800000000000000
+      internalID: 4777693187336983823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_73
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 185
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4895ed232a42cbf0800000000000000
+      internalID: -305600309753440182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_74
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 184
+        width: 64
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f90e2da7ebe488d0800000000000000
+      internalID: -2844889684315862538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_75
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 180
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cefd00f25cfc730800000000000000
+      internalID: 4021649797933952136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_76
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 180
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af178bef9f4d326a0800000000000000
+      internalID: -6475097669043195398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_77
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 188
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6996af69fd5dff420800000000000000
+      internalID: 2666084660714039702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_78
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 181
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e896e80942414290800000000000000
+      internalID: -7907966589236504350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_79
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 181
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f056596f6616fd500800000000000000
+      internalID: 423163984847660303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_80
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 181
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112a35f97fb413c50800000000000000
+      internalID: 6643174452250255889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_81
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 181
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505144a1e373e2100800000000000000
+      internalID: 85066182834787589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 180
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c0b099a90ca9fe0800000000000000
+      internalID: -1181420182006199285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_83
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 180
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3799946128c9417c0800000000000000
+      internalID: -4101481278094075533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_84
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 179
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05dead09073b2a440800000000000000
+      internalID: 4945712636854201680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_85
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 164
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1abc84a1894d4310800000000000000
+      internalID: 1390848681087646236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_86
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 165
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cde103320891a250800000000000000
+      internalID: 5954207317573627328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_87
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 165
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7674482326d98080800000000000000
+      internalID: -9184574518557641093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_88
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 165
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b5c0b81e4433700800000000000000
+      internalID: 518834117568912193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_89
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 161
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263ad59aae456fb00800000000000000
+      internalID: 861969745528595298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_90
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 162
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ec961fe9653d490800000000000000
+      internalID: -7722733695355203974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_91
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 164
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef420b1da43cf08c0800000000000000
+      internalID: -4030788415360326402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_92
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 163
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b1fefcdd8baede0800000000000000
+      internalID: -1303025879354500270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_93
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 151
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7652d6c5e6409d0800000000000000
+      internalID: -2808998924325132293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_94
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 150
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cb3cd98d31a37c0800000000000000
+      internalID: -4090935490431960013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_95
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 150
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a603ea6640e774960800000000000000
+      internalID: 7586170654696550506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_96
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 150
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370936908191b1960800000000000000
+      internalID: 7573674789381050483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_97
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 149
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5127a83d97691080800000000000000
+      internalID: -9216221237479005859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_98
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d323e4577deda1000800000000000000
+      internalID: 7563366361870909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_99
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 148
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc3eacb20b5ee3d0800000000000000
+      internalID: -3175500619936023369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_100
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 147
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8670ddb77359dfe0800000000000000
+      internalID: -1163807254947793268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_101
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 145
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2c58ba85d8bc820800000000000000
+      internalID: 2939598593763689204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_102
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 144
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a596f8f2cc007ffc0800000000000000
+      internalID: -3461296911639680678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_103
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 145
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731c678cb79cdcc80800000000000000
+      internalID: -8300757004692569801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_104
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 146
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73ce86b2c9a35e20800000000000000
+      internalID: 3338198402563228542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_105
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 131
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe0c57802d3c95f0800000000000000
+      internalID: -748656228131139856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_106
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 138
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e752ea80ad88f700800000000000000
+      internalID: 574364673154111457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_107
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 128
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9239fe69508ebe7c0800000000000000
+      internalID: -4040881129930124503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_108
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 133
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edf114762ef837f0800000000000000
+      internalID: -632476306536006174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_109
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 132
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abafde27ae887fdb0800000000000000
+      internalID: -4758183940761716038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_110
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 128
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62974f717e5d24a20800000000000000
+      internalID: 3045231486571936038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_111
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 120
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a55506c57051a70800000000000000
+      internalID: 8796945540472724052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_112
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 121
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ba0453329041680800000000000000
+      internalID: -8785386926271059096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_113
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 120
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c278e4516012590800000000000000
+      internalID: -7700867199245276098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_114
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 121
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef55d28e27311e9b0800000000000000
+      internalID: -5052735922690501122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_115
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 118
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d2137768e50dc50800000000000000
+      internalID: 6687949378263526810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_116
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 117
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea341cd4e93a0d3e0800000000000000
+      internalID: -2030943531639422034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_117
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 117
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da4c19af0b6561d0800000000000000
+      internalID: -3358160232128951592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_118
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 115
+        width: 44
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889482d94fa63fd10800000000000000
+      internalID: 2158186245281827208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_119
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 117
+        width: 92
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4107af8ac08c6d9e0800000000000000
+      internalID: -1596869061156114412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_120
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 70
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2cfb90f9a09ba10800000000000000
+      internalID: 1925581993857237675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_121
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 69
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21e40d38b250ae00800000000000000
+      internalID: 1053933264055886127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_122
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02275a9c5704b93c0800000000000000
+      internalID: -4351813740285038048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_123
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8fbcc66e5743bc0800000000000000
+      internalID: -3804286152692991822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_124
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4c455434f046730800000000000000
+      internalID: 3991331951357510859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_125
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 90
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f0d598217107b90800000000000000
+      internalID: -7246266432057700559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_126
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 88
+        width: 56
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31135c577856d880800000000000000
+      internalID: -8586578369861971653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_127
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 87
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc6322730c3c6c20800000000000000
+      internalID: 3200999420651072753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_128
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 84
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702075905bbf3f5f0800000000000000
+      internalID: -723958360112168441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_129
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 86
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edd6422befd1d7f0800000000000000
+      internalID: -589443875223446046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_130
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 84
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55c0ac27448fc660800000000000000
+      internalID: 7408285353274033503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_131
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 50
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6678a7d5a4d184700800000000000000
+      internalID: 524701561821759334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_132
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 50
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d74e52075db6490800000000000000
+      internalID: -7751867655939392101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_133
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331ce599798b411e0800000000000000
+      internalID: -2227952954388856525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_134
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 52
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78fabd82043fd050800000000000000
+      internalID: 5827433628413130874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_135
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 52
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2260198420809a380800000000000000
+      internalID: -8959621177776470494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_136
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba518f915c804ac30800000000000000
+      internalID: 4369627181093492139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_137
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c419df20ce3e040800000000000000
+      internalID: 4675840335728954463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_138
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 8
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3933faf4c4a9efca0800000000000000
+      internalID: -5981173602556365933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_139
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 24
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbd4677d16705990800000000000000
+      internalID: -7399284318840497204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_140
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 34
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97fec6beaa2b9ef0800000000000000
+      internalID: -100439636806010981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_141
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 12
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e5b2e87e9385d10800000000000000
+      internalID: 2114503691735883395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_142
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 16
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4de87b9ab05e790800000000000000
+      internalID: -7501576780758723390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_143
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 24
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67df6c8a0214dba50800000000000000
+      internalID: 6538453842538200438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_144
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 5
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e2694f63c9925f0800000000000000
+      internalID: -780921300526420393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_145
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78da3018b5d3a2180800000000000000
+      internalID: -9139425030579180153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_146
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458a490b787f9f160800000000000000
+      internalID: 7059946053035141204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_147
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65485c186bd6b870800000000000000
+      internalID: 8698380970511320431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_148
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 7
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6b1cb7e2aba7dc0800000000000000
+      internalID: -3640392639968069968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_149
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 15
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b5de324433e2720800000000000000
+      internalID: 2823250384161430362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_150
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc9cdae587cc15a0800000000000000
+      internalID: -6549140380118639439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_151
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 9
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149191ccf7a7bb140800000000000000
+      internalID: 4736514122413840705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_152
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 15
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76aa8b3bca952bb0800000000000000
+      internalID: -4961389216810752386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_153
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab63bb32eb2724a0800000000000000
+      internalID: -6618272876733437015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_154
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 6
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c3a2f9a86277020800000000000000
+      internalID: 2339380908259949609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_155
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 220
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f834a393d12473eb0800000000000000
+      internalID: -4740247389502553201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_156
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 216
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822acedf993b520b0800000000000000
+      internalID: -5753995474924428760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_157
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caddc129be79df990800000000000000
+      internalID: -7350551978774307412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_158
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27fd65533bfbedd0800000000000000
+      internalID: -2455592973905299670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Bullet Pixel All_159
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af9f0d94ab8536b0800000000000000
+      internalID: -5317190245915058266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

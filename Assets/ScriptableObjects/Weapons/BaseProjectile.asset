@@ -14,12 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 12515677054351435, guid: 944ac1e2e3827674c84f469bf9a09c70, type: 3}
   projectileSpeed: 20
-  amountToPool: 20
-  lifeTime: 1
-<<<<<<< Updated upstream
-=======
-  automatic: 0
+  amountToPool: 5
+  lifeTime: 0.5
+  automatic: 1
   timeBetweenShots: 0.2
   canExpandPool: 0
   canResetPool: 0
->>>>>>> Stashed changes

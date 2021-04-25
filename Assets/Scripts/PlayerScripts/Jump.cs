@@ -45,6 +45,13 @@ namespace WorldWarOneTools
 
         protected virtual bool CheckForJump()
         {
+            if (currentPlatform != null && currentPlatform.GetComponent<OneWayPlatform>() && inputManager.CrouchHeld())
+            {
+                character.isJumpingThroughPlatform = true;
+                Invoke("NotJumpingThroughPlatform", .1f);
+                return false;
+            }
+
             if (inputManager.JumpPressed())
             {
                 //To Check if the player is falling and disable jumping
@@ -95,11 +102,7 @@ namespace WorldWarOneTools
         protected virtual void IsJumping()
         {
             //Add Y velocity force in the rigidbody
-<<<<<<< Updated upstream
-            if (isJumping && !character.isCrouching)
-=======
-            if (character.isJumping && !character.isCrouching)
->>>>>>> Stashed changes
+            if (character.isJumping && !character.isDead)
             {
                 rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
                 rb2d.AddForce(Vector2.up * jumpForce);
@@ -114,11 +117,7 @@ namespace WorldWarOneTools
 
         protected virtual void Gliding()
         {
-<<<<<<< Updated upstream
-            if(Falling(0) && inputManager.JumpHeld())
-=======
             if(character.Falling(0) && inputManager.JumpHeld())
->>>>>>> Stashed changes
             {
                 fallCountDown -= Time.deltaTime;
                 if(fallCountDown > 0 && rb2d.velocity.y > acceptedFallSpeed)
@@ -150,6 +149,9 @@ namespace WorldWarOneTools
             //Checking if the player is grounded and reseting the numberOfJumpsLeft
             if (CollisionCheck(Vector2.down, distanceToCollider, collisionLayer) && !isJumping)
             {
+                if (currentPlatform.GetComponent<MovablePlatform>())
+                    transform.parent = currentPlatform.transform;
+
                 anim.SetBool("Grounded", true);
                 character.isGrounded = true;
                 numberOfJumpsLeft = maxJumps;
@@ -158,6 +160,8 @@ namespace WorldWarOneTools
 
             else
             {
+                transform.parent = null;
+
                 anim.SetBool("Grounded", false);
                 character.isGrounded = false;
 
@@ -193,6 +197,11 @@ namespace WorldWarOneTools
                 character.isWallSliding = false;
                 return false;
             }
+        }
+
+        protected virtual void NotJumpingThroughPlatform()
+        {
+            character.isJumpingThroughPlatform = false;
         }
 
         protected virtual void WallJump()

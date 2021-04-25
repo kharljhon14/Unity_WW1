@@ -11,8 +11,6 @@ namespace WorldWarOneTools
         public float projectileSpeed;
         public int amountToPool;
         public float lifeTime;
-<<<<<<< Updated upstream
-=======
         public bool automatic;
         public float timeBetweenShots;
         public bool canExpandPool;
@@ -25,7 +23,6 @@ namespace WorldWarOneTools
                 canResetPool = false;
             }
         }
->>>>>>> Stashed changes
     }
 
 }

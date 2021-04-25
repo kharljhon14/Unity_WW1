@@ -8,12 +8,12 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 2
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: WW1
+  companyName: NW4B
+  productName: CHRONICLES REBORN
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -22,7 +22,7 @@ PlayerSettings:
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 1
-  m_SplashScreenDrawMode: 0
+  m_SplashScreenDrawMode: 1
   m_SplashScreenBackgroundAnimationZoom: 1
   m_SplashScreenLogoAnimationZoom: 1
   m_SplashScreenBackgroundLandscapeAspect: 1
@@ -39,7 +39,11 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
+  m_SplashScreenLogos:
+  - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
+    duration: 2
+  - logo: {fileID: 21300000, guid: e4039c7b0cb8e0a4eb7550e3f25c257b, type: 3}
+    duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
@@ -128,7 +132,9 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: -3772300842394266900, guid: 602ef3888d4cc0b4fb98c1ae38e464a0, type: 2}
+  - {fileID: 11400000, guid: cf8ecc82f8762e248b9a8395758d3ab5, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -137,7 +143,7 @@ PlayerSettings:
   vrSettings:
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
-  enableFrameTimingStats: 0
+  enableFrameTimingStats: 1
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
@@ -146,12 +152,12 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.WW1
+    Android: com.NW4B.WW1
   buildNumber:
     Standalone: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 0
+  overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
@@ -262,6 +268,68 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Icons:
     - m_Textures: []
+      m_Width: 192
+      m_Height: 192
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 144
+      m_Height: 144
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 96
+      m_Height: 96
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 72
+      m_Height: 72
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 48
+      m_Height: 48
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 36
+      m_Height: 36
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 192
+      m_Height: 192
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 144
+      m_Height: 144
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 96
+      m_Height: 96
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 72
+      m_Height: 72
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 48
+      m_Height: 48
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 36
+      m_Height: 36
+      m_Kind: 0
+      m_SubKind: 
+    - m_Textures:
+      - {fileID: 2800000, guid: 04a8754cf4524ff4dbda8c50bbe17c60, type: 3}
+      - {fileID: 2800000, guid: 04a8754cf4524ff4dbda8c50bbe17c60, type: 3}
       m_Width: 432
       m_Height: 432
       m_Kind: 2
@@ -290,66 +358,6 @@ PlayerSettings:
       m_Width: 81
       m_Height: 81
       m_Kind: 2
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 192
-      m_Height: 192
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 144
-      m_Height: 144
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 96
-      m_Height: 96
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 72
-      m_Height: 72
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 48
-      m_Height: 48
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 36
-      m_Height: 36
-      m_Kind: 1
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 192
-      m_Height: 192
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 144
-      m_Height: 144
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 96
-      m_Height: 96
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 72
-      m_Height: 72
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 48
-      m_Height: 48
-      m_Kind: 0
-      m_SubKind: 
-    - m_Textures: []
-      m_Width: 36
-      m_Height: 36
-      m_Kind: 0
       m_SubKind: 
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsJobs:
@@ -383,7 +391,7 @@ PlayerSettings:
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
     m_APIs: 150000000b000000
-    m_Automatic: 0
+    m_Automatic: 1
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
@@ -639,7 +647,22 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    4: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    7: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    13: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    14: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    19: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    21: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    25: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    27: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    28: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    29: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    30: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    31: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    32: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+    33: PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

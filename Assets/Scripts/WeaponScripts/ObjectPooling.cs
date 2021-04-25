@@ -35,15 +35,10 @@ namespace WorldWarOneTools
         }
 
         private GameObject currentItem;
-<<<<<<< Updated upstream
-        public void CreatePool(WeaponTypes weapon, List<GameObject> currentPool, GameObject projectileParentFolder)
-        {
-=======
 
         public void CreatePool(WeaponTypes weapon, List<GameObject> currentPool, GameObject projectileParentFolder, Weapon weaponScript)
         {
             weaponScript.totalPool.Add(projectileParentFolder);
->>>>>>> Stashed changes
             for (int i = 0; i < weapon.amountToPool; i++)
             {
                 currentItem = Instantiate(weapon.projectile);
@@ -53,16 +48,21 @@ namespace WorldWarOneTools
             }
 
             projectileParentFolder.name = weapon.name;
-<<<<<<< Updated upstream
+            projectileParentFolder.tag = weapon.projectile.tag;
         }
 
-        public virtual GameObject GetObject(List<GameObject> currentPool)
+        public void CreateEnemyPool(WeaponTypes weapon, List<GameObject> currentPool, GameObject projectileParentFolder, EnemyWeapon weaponScript)
         {
-            for (int i = 0; i < currentPool.Count; i++)
+            weaponScript.totalPools.Add(projectileParentFolder);
+            for (int i = 0; i < weapon.amountToPool; i++)
             {
-                if (!currentPool[i].activeInHierarchy)
-                {
-=======
+                currentItem = Instantiate(weapon.projectile);
+                currentItem.SetActive(false);
+                currentPool.Add(currentItem);
+                currentItem.transform.SetParent(projectileParentFolder.transform);
+            }
+
+            projectileParentFolder.name = weapon.name;
             projectileParentFolder.tag = weapon.projectile.tag;
         }
 
@@ -76,13 +76,10 @@ namespace WorldWarOneTools
                     {
                         weaponScript.bulletsToReset.Add(currentPool[i]);
                     }
->>>>>>> Stashed changes
                     return currentPool[i];
                 }
             }
 
-<<<<<<< Updated upstream
-=======
             foreach (GameObject item in currentPool)
             {
                 if (weapon.canExpandPool && item.tag == tag)
@@ -105,7 +102,31 @@ namespace WorldWarOneTools
                 }
             }
 
->>>>>>> Stashed changes
+            return null;
+        }
+
+        public virtual GameObject GetEnemyObject(List<GameObject> currentPool, WeaponTypes weapon, GameObject projectileParentFolder, string tag)
+        {
+            for (int i = 0; i < currentPool.Count; i++)
+            {
+                if (!currentPool[i].activeInHierarchy && currentPool[i].tag == tag)
+                {     
+                    return currentPool[i];
+                }
+            }
+
+            foreach (GameObject item in currentPool)
+            {
+                if (weapon.canExpandPool && item.tag == tag)
+                {
+                    currentItem = Instantiate(weapon.projectile);
+                    currentItem.SetActive(false);
+                    currentPool.Add(currentItem);
+                    currentItem.transform.SetParent(projectileParentFolder.transform);
+                    return currentItem;
+                }
+            }
+
             return null;
         }
     }

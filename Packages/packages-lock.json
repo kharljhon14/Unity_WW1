@@ -1,5 +1,39 @@
 {
   "dependencies": {
+    "com.google.external-dependency-manager": {
+      "version": "1.2.164",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unityregistry-pa.googleapis.com"
+    },
+    "com.google.firebase.app": {
+      "version": "7.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.164"
+      },
+      "url": "https://unityregistry-pa.googleapis.com"
+    },
+    "com.google.firebase.auth": {
+      "version": "7.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.google.firebase.app": "7.1.0"
+      },
+      "url": "https://unityregistry-pa.googleapis.com"
+    },
+    "com.google.firebase.database": {
+      "version": "7.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.google.firebase.auth": "7.1.0"
+      },
+      "url": "https://unityregistry-pa.googleapis.com"
+    },
     "com.unity.2d.animation": {
       "version": "5.0.4",
       "depth": 0,
@@ -72,6 +106,24 @@
       "source": "builtin",
       "dependencies": {}
     },
+    "com.unity.adaptiveperformance": {
+      "version": "2.1.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.subsystemregistration": "1.1.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.adaptiveperformance.samsung.android": {
+      "version": "2.0.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.adaptiveperformance": "2.0.2"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.cinemachine": {
       "version": "2.6.4",
       "depth": 0,
@@ -123,6 +175,15 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.subsystemregistration": {
+      "version": "1.1.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.subsystems": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {

@@ -11,6 +11,9 @@ namespace WorldWarOneTools
         [SerializeField] protected float zAdjustment;
         [SerializeField] protected float tValue;
 
+        protected float halfCameraX;
+        protected float halfCameraY;
+
         private float orignalYAdjusment;
         private bool falling;
 
@@ -18,6 +21,9 @@ namespace WorldWarOneTools
         {
             base.Initialization();
             orignalYAdjusment = yAdjustment;
+            halfCameraX = GetComponent<Camera>().ViewportToWorldPoint(new Vector2(0, 0)).x;
+            halfCameraY = GetComponent<Camera>().ViewportToWorldPoint(new Vector2(0, 0)).y;
+            transform.position = player.transform.position;
         }
 
         protected virtual void FixedUpdate()
@@ -60,6 +66,8 @@ namespace WorldWarOneTools
             {
                 transform.position = Vector3.Lerp(new Vector3(player.transform.position.x + -xAdjustment, player.transform.position.y + yAdjustment, player.transform.position.z - zAdjustment), transform.position, tValue);
             }
+
+            transform.position = new Vector3(Mathf.Clamp(transform.position.x, xMin - halfCameraX, xMax + halfCameraX), Mathf.Clamp(transform.position.y, yMin - halfCameraY, yMax + halfCameraY), -zAdjustment);
         }
     }
 }

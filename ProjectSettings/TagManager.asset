@@ -5,11 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Joystick
-<<<<<<< Updated upstream
-=======
   - Second Bullet
   - Bullet
->>>>>>> Stashed changes
+  - Enemy Bullet
+  - Third Bullet
   layers:
   - Default
   - TransparentFX
@@ -19,9 +18,9 @@ TagManager:
   - UI
   - Platform
   - PassibleLayer
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Destructable
   - 
   - 
   - 

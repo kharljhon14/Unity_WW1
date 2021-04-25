@@ -10,10 +10,20 @@ namespace WorldWarOneTools
         [SerializeField] protected float maxSpeed;
         [SerializeField] protected float sprintMultiplier;
         [SerializeField] protected float crouchingSpeed;
+        [SerializeField] protected float ladderSpeed;
+
+        public List<Vector3> deltaPosition = new List<Vector3>();
+
+        [HideInInspector] public Vector3 bestDeltaPosition;
+        [HideInInspector] public GameObject currentLadder;
+
+        protected bool above;
 
         private float acceleration;
         private float currentSpeed;
         private float runTime;
+        private float deltaPositionCountDown = 1;
+        private float deltaPositionCountDownCurrent = 0;
 
         protected override void Initialization()
         {
@@ -28,11 +38,17 @@ namespace WorldWarOneTools
         protected virtual void FixedUpdate()
         {
             Movement();
+            LadderMovement();
+            PreviousGroundedPosition();
         }
 
-        protected virtual void Movement()
+        public virtual void Movement()
         {
-            if (inputManager.MovementPressed())
+            //transform.position = new Vector2(Mathf.Clamp(transform.position.x, gameManager.xMin, gameManager.xMax), Mathf.Clamp(transform.position.y, gameManager.yMin, gameManager.yMax));
+            if (gameManager.gamePaused)
+                return;
+
+            if (inputManager.MovementPressed() && !character.isDead)
             {
                 anim.SetBool("Moving", true);
                 //Declare acceleration
@@ -57,6 +73,56 @@ namespace WorldWarOneTools
             //Move Player
             anim.SetFloat("CurrentSpeed", currentSpeed);
             rb2d.velocity = new Vector2(currentSpeed, rb2d.velocity.y);
+        }
+
+        protected virtual void LadderMovement()
+        {
+            if(character.isOnLadder &&  currentLadder != null)
+            {
+                rb2d.bodyType = RigidbodyType2D.Kinematic;
+                rb2d.velocity = new Vector2(rb2d.velocity.x, 0);
+
+                if(col.bounds.min.y >= (currentLadder.GetComponent<Ladder>().topOfLadder.y - col.bounds.extents.y))
+                    above = true;
+
+                else
+                    above = false;
+
+                if (inputManager.JumpHeld())
+                {
+                    transform.position = Vector2.MoveTowards(transform.position, currentLadder.GetComponent<Ladder>().topOfLadder, ladderSpeed * Time.deltaTime);
+                    return;
+                }
+
+                if (inputManager.CrouchHeld())
+                {
+                    transform.position = Vector2.MoveTowards(transform.position, currentLadder.GetComponent<Ladder>().bottomOfLadder, ladderSpeed * Time.deltaTime);
+                    return;
+                }
+            }
+
+            else
+            {
+                rb2d.bodyType = RigidbodyType2D.Dynamic; 
+            }
+        }
+
+        protected virtual void PreviousGroundedPosition()
+        {
+            if(character.isGrounded && inputManager.MovementPressed())
+            {
+                deltaPositionCountDownCurrent -= Time.deltaTime;
+
+                if(deltaPositionCountDownCurrent < 0)
+                {
+                    if(deltaPosition.Count == 10)
+                        deltaPosition.RemoveAt(0);
+
+                    deltaPosition.Add(transform.position);
+                    deltaPositionCountDownCurrent = deltaPositionCountDown;
+                    bestDeltaPosition = deltaPosition[0];
+                }
+            }
         }
 
         protected virtual void CheckDirection()
@@ -95,11 +161,14 @@ namespace WorldWarOneTools
             if (inputManager.SprintingHeld())
                 currentSpeed *= sprintMultiplier;
 
-            if (character.isCrouching)
+            if (character.isCrouching && inputManager.CrouchHeld())
                 currentSpeed *= crouchingSpeed;
 
-            if(!character.isFacingLeft && CollisionCheck(Vector2.right, .05f, jump.collisionLayer) || character.isFacingLeft && CollisionCheck(Vector2.left, .05f, jump.collisionLayer))
-                currentSpeed = .01f;
+            if(currentPlatform != null && (!currentPlatform.GetComponent<OneWayPlatform>() || !currentPlatform.GetComponent<Ladder>()))
+            {
+                if (!character.isFacingLeft && CollisionCheck(Vector2.right, .05f, jump.collisionLayer) || character.isFacingLeft && CollisionCheck(Vector2.left, .05f, jump.collisionLayer))
+                    currentSpeed = .01f;
+            }    
         }
     }
 }

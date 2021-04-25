@@ -4,42 +4,35 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    [SerializeField] protected Joystick joystick;
     [HideInInspector] public float horizontalInput;
     private Animator anim;
 
-    private void Awake()
+    private bool animating;
+
+    private void Start()
     {
-        if (joystick == null)
-            joystick = GameObject.FindGameObjectWithTag("Joystick").GetComponent<Joystick>();
+        anim = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        if (joystick)
-        {
-            CrouchHeld();
-            DashPressed();
-            SprintingHeld();
-            JumpPressed();
-            JumpHeld();
-            MovementPressed();
-        }
-<<<<<<< Updated upstream
-        WeaponFired();
-=======
-
+        CrouchHeld();
+        //DashPressed();
+        //SprintingHeld();
+        JumpPressed();
+        JumpHeld();
+        MovementPressed();
         WeaponFired();
         WeaponFiredHeld();
->>>>>>> Stashed changes
+        Melee();
     }
 
     public virtual bool MovementPressed()
     {
         //Check if movement button is pressed
-        if (joystick.Horizontal != 0)
+        if (SimpleInput.GetAxisRaw("Horizontal") >= .5f || SimpleInput.GetAxisRaw("Horizontal") <= -.5f)
         {
-            horizontalInput = joystick.Horizontal;
+            horizontalInput = SimpleInput.GetAxisRaw("Horizontal");
             return true;
         }
 
@@ -49,7 +42,7 @@ public class InputManager : MonoBehaviour
 
     public virtual bool CrouchHeld()
     {
-        if (joystick.Vertical <= -.5f)
+        if (SimpleInput.GetAxisRaw("Vertical") < -.5f)
         {
             return true;
         }
@@ -80,7 +73,7 @@ public class InputManager : MonoBehaviour
     //Check if jump button is held
     public virtual bool JumpHeld()
     {
-        if (joystick.Vertical >= .5f)
+        if (SimpleInput.GetAxisRaw("Vertical") >= .3f)
         {
             return true;
         }
@@ -90,7 +83,7 @@ public class InputManager : MonoBehaviour
 
     public virtual bool JumpPressed()
     {
-        if (joystick.Vertical >= .5f)
+        if (SimpleInput.GetAxisRaw("Vertical") >= .3f)
         {
             return true;
         }
@@ -100,7 +93,7 @@ public class InputManager : MonoBehaviour
 
     public virtual bool WeaponFired()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (SimpleInput.GetButtonDown("Fire3"))
         {
             return true;
         }
@@ -108,16 +101,29 @@ public class InputManager : MonoBehaviour
             return false;
     }
 
-<<<<<<< Updated upstream
-=======
     public virtual bool WeaponFiredHeld()
     {
-        if (Input.GetButton("Fire1"))
+        if (SimpleInput.GetButton("Fire3"))
         {
             return true;
         }
         else
             return false;
+    }
+
+    public virtual void Melee()
+    {
+        if (SimpleInput.GetButtonDown("Jump") && !animating)
+            StartCoroutine(StartMelee());
+    }
+
+    private IEnumerator StartMelee()
+    {
+        animating = true;
+        anim.SetBool("Melee", true);
+        yield return new WaitForSeconds(.4f);
+        animating = false;
+        anim.SetBool("Melee", false);
     }
 
     public virtual bool ChangeWeaponPressed()
@@ -130,5 +136,13 @@ public class InputManager : MonoBehaviour
             return false;
     }
 
->>>>>>> Stashed changes
+    public virtual bool GamePausePressed()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            return true;
+        }
+        else
+            return false;
+    }
 }
