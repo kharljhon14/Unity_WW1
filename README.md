@@ -24,7 +24,6 @@ Unity 2D platformer
 * Crouching
 * WallJump / WallSlide
 
-## 04/14/2021
 ### [IMPORTANT]
 1. Merge Login with Gameplay, 
 2. Character Select,
