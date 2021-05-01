@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 namespace WorldWarOneTools
 {
@@ -26,6 +27,11 @@ namespace WorldWarOneTools
         private void Start()
         {
             PhotonNetwork.NickName = authManager.user.DisplayName;
+        }
+
+        public void ToMainMenu()
+        {
+            SceneManager.LoadScene(1);
         }
 
         public override void OnConnectedToMaster()

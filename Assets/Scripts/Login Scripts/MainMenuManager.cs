@@ -36,6 +36,7 @@ namespace WorldWarOneTools
 
         public virtual void NewGame(int slot)
         {
+            AudioManager.instance.PlaySFX(3);
             PlayerPrefs.SetInt("GameFile", slot);
             PlayerPrefs.SetInt(" " + slot + "SaveSpawnReference", 0);
             PlayerPrefs.SetInt(" " + slot + "SpawnReference", 0);
@@ -68,7 +69,11 @@ namespace WorldWarOneTools
         public virtual void MissionSelect()
         {
             if(authManager.databaseReference != null)
+            {
+                AudioManager.instance.PlaySFX(3);
                 StartCoroutine(FadeOut(missionSelect));
+            }
+               
         }
 
         public virtual void ClearAbilities(int slot)
@@ -81,16 +86,19 @@ namespace WorldWarOneTools
 
         public void OpenAboutUs()
         {
+            AudioManager.instance.PlaySFX(3);
             aboutUs.SetActive(true);
         }
 
         public void CloseAboutUs()
         {
+            AudioManager.instance.PlaySFX(3);
             aboutUs.SetActive(false);
         }
 
         public virtual void SignOut()
         {
+            AudioManager.instance.PlaySFX(3);
             authManager.auth.SignOut();
             Application.Quit();
         }

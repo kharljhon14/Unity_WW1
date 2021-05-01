@@ -9,6 +9,7 @@ namespace WorldWarOneTools
     {
         protected Slider slider;
         protected PlayerHealth playerHealth;
+        [SerializeField] private Image hp;
 
         protected override void Initialization()
         {
@@ -18,6 +19,18 @@ namespace WorldWarOneTools
 
             slider.maxValue = playerHealth.maxHealthPoints;
             slider.value = PlayerPrefs.GetInt(" " + character.gameFile + "CurrentHealth");
+        }
+
+        private void Update()
+        {
+            if (slider.value >= 100)
+                hp.color = Color.green;
+
+            if (slider.value < 60)
+                hp.color = Color.yellow;
+
+            if (slider.value < 30)
+                hp.color = Color.red;
         }
 
         private void LateUpdate()

@@ -68,6 +68,36 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 46f91f45c3c43b84584eb88ddd8f79c7
+  - enabled: 1
+    path: Assets/Scenes/Stage 4 Cutscne 2.unity
+    guid: 3050f7783368a3b41982d1008f04c1f1
+  - enabled: 1
+    path: Assets/Scenes/Stage 4 Cutscne 3.unity
+    guid: 019abe4557d80c148b77842b05c81dd4
+  - enabled: 1
+    path: Assets/Scenes/Stage 4 Cutscne 4.unity
+    guid: 2b3b19fd8332e8542abc0855966a6d98
+  - enabled: 1
+    path: Assets/Scenes/Stage 4 Cutscne 5.unity
+    guid: 266b1b69b8e38c54a880dae0a2678ceb
+  - enabled: 1
+    path: Assets/Scenes/Stage 5 Cutscene 1.unity
+    guid: e398eb36c821f9b4c83b24976078e19f
+  - enabled: 1
+    path: Assets/Scenes/Stage 5 Cutscene 3.unity
+    guid: e12e4431baac2094f8a5fe94394f11ad
+  - enabled: 1
+    path: Assets/Scenes/Stage 5 Cutscene 2.unity
+    guid: 337bc0d35141ee84e8733b9bbca921e3
+  - enabled: 1
+    path: Assets/Scenes/Stage 5 Cutscene 4.unity
+    guid: ba7203af30420f74cbc5c6af29381f52
+  - enabled: 1
+    path: Assets/Scenes/Stage 5 Cutscene 5.unity
+    guid: 1b99da42da4057d43ac27a48429dae99
+  - enabled: 1
+    path: Assets/Scenes/Stage 4 Cutscne 1.unity
+    guid: c2d047072e761d94eacbd28a2dd77db2
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 602ef3888d4cc0b4fb98c1ae38e464a0, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: cf8ecc82f8762e248b9a8395758d3ab5, type: 2}

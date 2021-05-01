@@ -31,6 +31,7 @@ namespace WorldWarOneTools
         private void Start()
         {
             StartCoroutine(FadeIn());
+            Debug.Log(PlayerPrefs.GetInt("Unlock"));
         }
 
         public void MainMenu()
@@ -138,27 +139,27 @@ namespace WorldWarOneTools
                     break;
 
                 case 2:
-                    if (PlayerPrefs.GetInt("Unlock") == 2)
+                    if (PlayerPrefs.GetInt("Unlock") >= 2)
                         StartCoroutine(FadeOut(stage2));
                     break;
 
                 case 3:
-                    if (PlayerPrefs.GetInt("Unlock") == 3)
+                    if (PlayerPrefs.GetInt("Unlock") >= 3)
                         StartCoroutine(FadeOut(stage3));
                     break;
 
                 case 4:
-                    if (PlayerPrefs.GetInt("Unlock") == 4)
+                    if (PlayerPrefs.GetInt("Unlock") >= 4)
                         StartCoroutine(FadeOut(stage4));
                     break;
 
                 case 5:
-                    if (PlayerPrefs.GetInt("Unlock") == 5)
+                    if (PlayerPrefs.GetInt("Unlock") >= 5)
                         StartCoroutine(FadeOut(stage5));
                     break;
 
                 case 6:
-                    if (PlayerPrefs.GetInt("Unlock") == 6)
+                    if (PlayerPrefs.GetInt("Unlock") >= 6)
                         StartCoroutine(FadeOut(stage6));
                     break;
             }

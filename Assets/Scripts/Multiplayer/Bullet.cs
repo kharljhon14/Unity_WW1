@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviourPunCallbacks
     public float moveSpeed;
     public float destroyTime;
 
+    public float bulletDmg;
 
     private void Start()
     {
@@ -44,12 +45,20 @@ public class Bullet : MonoBehaviourPunCallbacks
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (photonView.IsMine)
+        if (!photonView.IsMine)
             return;
 
         PhotonView target = collision.gameObject.GetComponent<PhotonView>();
 
-        if (target != null && (!target.IsMine || target.IsSceneView))
-            this.GetComponent<PhotonView>().RPC("DestroyObject", RpcTarget.AllBuffered);
+        if (target != null && (!target.IsMine || target.IsRoomView))
+        {
+            if (target.CompareTag("Player"))
+            {
+                target.RPC("ReduceHealth", RpcTarget.AllBuffered, bulletDmg);
+                this.GetComponent<PhotonView>().RPC("DestroyObject", RpcTarget.AllBuffered);
+            }
+        }
+      
+
     }
 }

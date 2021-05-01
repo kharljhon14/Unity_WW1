@@ -6,73 +6,82 @@ using Photon.Pun;
 using TMPro;
 using Photon.Realtime;
 
-public class GameManagerMultiplayer : MonoBehaviourPunCallbacks
+namespace WorldWarOneTools
 {
-    public GameObject PlayerPrefabs;
-    public GameObject GameCanvas;
-    public GameObject SceneCamera;
-    public TextMeshProUGUI PingText;
-    public GameObject DisconnectUI;
-    private bool Off = false;
-
-    public GameObject PlayerFeed;
-    public GameObject FeedGrid;
-    private void Awake()
+    public class GameManagerMultiplayer : MonoBehaviourPunCallbacks
     {
-        GameCanvas.SetActive(true);
-    }
+        public static GameManagerMultiplayer Instance;
 
-    private void Start()
-    {
-        SpawnPlayer();
-    }
+        public GameObject PlayerPrefabs;
+        public GameObject GameCanvas;
+        public GameObject SceneCamera;
+        public TextMeshProUGUI PingText;
 
-    private void Update()
-    {
-        CheckInput();
-        PingText.text = "Ping: " + PhotonNetwork.GetPing();
-    }
+        [HideInInspector] public GameObject localPlayer;
+        public TextMeshProUGUI respawnTimer;
+        public GameObject respawnUI;
+        private float timerAmount = 5f;
 
-    public void CheckInput()
-    {
-        if(Off && Input.GetKeyDown(KeyCode.Escape))
+        private bool runSpawnTimer = false;
+        private void Awake()
         {
-            DisconnectUI.SetActive(false);
-            Off = false;
+            Instance = this;
+            GameCanvas.SetActive(true);
         }
-        else if(!Off && Input.GetKeyDown(KeyCode.Escape))
+
+        private void Start()
         {
-            DisconnectUI.SetActive(true);
-            Off = true;
+            SpawnPlayer();
         }
-    }
-    public void SpawnPlayer()
-    {
-        float randomValue = Random.Range(1f, 1f);
-        PhotonNetwork.Instantiate(PlayerPrefabs.name, new Vector2(this.transform.position.x *randomValue, this.transform.position.y), Quaternion.identity, 0);
-        GameCanvas.SetActive(false);
-        SceneCamera.SetActive(true);
-    }
 
-    public void LeaveRoom()
-    {
-        PhotonNetwork.LeaveRoom();
-        PhotonNetwork.LoadLevel(1);
-    }
+        private void Update()
+        {
+            PingText.text = "Ping: " + PhotonNetwork.GetPing();
 
-    public override void OnPlayerEnteredRoom(Player player)
-    {
-        GameObject obj = Instantiate(PlayerFeed, new Vector2(0, 0), Quaternion.identity);
-        obj.transform.SetParent(FeedGrid.transform, false);
-        obj.GetComponent<Text>().text = player.NickName + "Joined the game";
-        obj.GetComponent<Text>().color = Color.green;
-    }
+            if (runSpawnTimer)
+                StartRespawn();
+        }
 
-    public override void OnPlayerLeftRoom(Player player)
-    {
-        GameObject obj = Instantiate(PlayerFeed, new Vector2(0, 0), Quaternion.identity);
-        obj.transform.SetParent(FeedGrid.transform, false);
-        obj.GetComponent<Text>().text = player.NickName + "Left the game";
-        obj.GetComponent<Text>().color = Color.red;
+        public void EnableRespawn()
+        {
+            timerAmount = 5f;
+            runSpawnTimer = true;
+            respawnUI.SetActive(true);
+        }
+
+        private void StartRespawn()
+        {
+            timerAmount -= Time.deltaTime;
+            respawnTimer.text = "Respawning in " + timerAmount.ToString("F0");
+
+            if (timerAmount <= 0)
+            {
+                RespawnLocation();
+                localPlayer.GetComponent<PhotonView>().RPC("Alive", RpcTarget.AllBuffered);
+                localPlayer.GetComponent<MultiplayerHP>().CanMove();
+                respawnUI.SetActive(false);
+                runSpawnTimer = false;
+            }
+        }
+
+        public void RespawnLocation()
+        {
+            float randomValue = Random.Range(40f, 35f);
+            localPlayer.transform.localPosition = new Vector3(randomValue, 3f);
+        }
+
+        public void SpawnPlayer()
+        {
+            float randomValue = Random.Range(1f, 1f);
+            PhotonNetwork.Instantiate(PlayerPrefabs.name, new Vector2(this.transform.position.x * randomValue, this.transform.position.y), Quaternion.identity, 0);
+            GameCanvas.SetActive(false);
+            SceneCamera.SetActive(true);
+        }
+
+        public void LeaveRoom()
+        {
+            PhotonNetwork.LeaveRoom();
+            PhotonNetwork.LoadLevel(1);
+        }
     }
 }

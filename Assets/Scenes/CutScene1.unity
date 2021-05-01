@@ -1294,22 +1294,22 @@ PrefabInstance:
     - target: {fileID: 4456619361024525843, guid: 5543c1ecdabc5b246861618b9995e790, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 23678946528086748, guid: 50a95d9adfc4c0342b29e17a45e1156c, type: 3}
+      objectReference: {fileID: -979831716109592834, guid: 701640ec3b07cdc44bdd0ee9f7652d7d, type: 3}
     - target: {fileID: 4456619361024525843, guid: 5543c1ecdabc5b246861618b9995e790, type: 3}
       propertyPath: m_Color.a
-      value: 0.49019608
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4456619361024525843, guid: 5543c1ecdabc5b246861618b9995e790, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.85882354
       objectReference: {fileID: 0}
     - target: {fileID: 4456619361024525843, guid: 5543c1ecdabc5b246861618b9995e790, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.85882354
       objectReference: {fileID: 0}
     - target: {fileID: 4456619361024525843, guid: 5543c1ecdabc5b246861618b9995e790, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.85882354
       objectReference: {fileID: 0}
     - target: {fileID: 4456619361024525844, guid: 5543c1ecdabc5b246861618b9995e790, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1425,7 +1425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6315347920416468455, guid: 5543c1ecdabc5b246861618b9995e790, type: 3}
       propertyPath: m_fontSize
-      value: 26
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6315347920416468455, guid: 5543c1ecdabc5b246861618b9995e790, type: 3}
       propertyPath: m_fontAsset
@@ -1445,7 +1445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6315347920416468455, guid: 5543c1ecdabc5b246861618b9995e790, type: 3}
       propertyPath: m_fontSizeBase
-      value: 26
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6315347920416468455, guid: 5543c1ecdabc5b246861618b9995e790, type: 3}
       propertyPath: m_sharedMaterial
@@ -1453,7 +1453,7 @@ PrefabInstance:
       objectReference: {fileID: -3962342202732292013, guid: 90d1532a6af3e1d4eae52e97071d5d0f, type: 2}
     - target: {fileID: 6315347920416468455, guid: 5543c1ecdabc5b246861618b9995e790, type: 3}
       propertyPath: m_enableAutoSizing
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6315347920416468455, guid: 5543c1ecdabc5b246861618b9995e790, type: 3}
       propertyPath: m_TextStyleHashCode

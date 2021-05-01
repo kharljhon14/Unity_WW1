@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - Enemy Bullet
   - Third Bullet
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
@@ -54,4 +55,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1264499051
+    locked: 0
+  - name: ForeGround
+    uniqueID: 369237511
     locked: 0

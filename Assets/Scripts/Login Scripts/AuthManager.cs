@@ -518,6 +518,7 @@ namespace WorldWarOneTools
                 PlayerPrefs.SetInt(" " + 1 + "LoadFromSave", (int) (long)snapshot.Child("LoadFormSave").Value);
                 PlayerPrefs.SetInt("char", (int) (long)snapshot.Child("Character").Value);
                 PlayerPrefs.SetInt("Mission", (int) (long)snapshot.Child("Mission").Value);
+                PlayerPrefs.SetInt("Unlock", (int)(long)snapshot.Child("Checkpoint").Value);
 
             }
         }

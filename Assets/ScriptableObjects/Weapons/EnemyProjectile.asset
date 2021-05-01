@@ -17,6 +17,6 @@ MonoBehaviour:
   amountToPool: 5
   lifeTime: 0.5
   automatic: 1
-  timeBetweenShots: 0.5
+  timeBetweenShots: 1
   canExpandPool: 0
   canResetPool: 0

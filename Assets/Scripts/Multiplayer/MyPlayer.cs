@@ -19,34 +19,54 @@ namespace WorldWarOneTools
         public GameObject bullet;
         public Transform firePos;
 
+        public float jumpForce;
+        public Transform groundDetection;
+        public float checkRadius;
+        private bool isGrounded;
+        private Rigidbody2D rb2d;
+        public LayerMask whatIsGround;
+
+        public bool cantMove = false;
+
         private void Awake()
         {
-
             if (photonView.IsMine)
                 username.text = PhotonNetwork.NickName;
 
             else
                 username.text = photonView.Owner.NickName;
-
         }
 
         private void Start()
         {
             sr = GetComponent<SpriteRenderer>();
             anim = GetComponent<Animator>();
+            rb2d = GetComponent<Rigidbody2D>();
         }
 
 
         private void Update()
         {
-            if (photonView.IsMine)
+            if (photonView.IsMine && !cantMove)
             {
                 CheckInputs();
+                CheckGround();
+            }
+        }
+
+        private void CheckGround()
+        {
+            isGrounded = Physics2D.OverlapCircle(groundDetection.position, checkRadius, whatIsGround);
+
+            if(isGrounded && SimpleInput.GetAxisRaw("Vertical") > .5f)
+            {
+                rb2d.velocity = Vector2.up * jumpForce;
             }
         }
 
         private void Shoot()
         {
+            AudioManager.instance.PlaySFX(0);
             if(sr.flipX == false)
             {
                 GameObject newBullet = PhotonNetwork.Instantiate(bullet.name, new Vector2(firePos.position.x, firePos.position.y), Quaternion.identity, 0);
@@ -65,7 +85,7 @@ namespace WorldWarOneTools
             var move = new Vector3(SimpleInput.GetAxisRaw("Horizontal"), 0);
             transform.position += move * moveSpeed * Time.deltaTime;
 
-            if (SimpleInput.GetButton("Fire3"))
+            if (SimpleInput.GetButtonDown("Fire3"))
                 Shoot();
 
             //if (SimpleInput.GetButtonDown("Fire3"))
