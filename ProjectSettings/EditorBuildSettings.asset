@@ -98,6 +98,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage 4 Cutscne 1.unity
     guid: c2d047072e761d94eacbd28a2dd77db2
+  - enabled: 1
+    path: Assets/Scenes/Stage 5 Cutscene 6.unity
+    guid: 96c4a25f4be05fe4a9960922e1b99dc8
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 602ef3888d4cc0b4fb98c1ae38e464a0, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: cf8ecc82f8762e248b9a8395758d3ab5, type: 2}

@@ -58,7 +58,10 @@ public class Bullet : MonoBehaviourPunCallbacks
                 this.GetComponent<PhotonView>().RPC("DestroyObject", RpcTarget.AllBuffered);
             }
         }
-      
 
+        if (collision.CompareTag("Platform"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

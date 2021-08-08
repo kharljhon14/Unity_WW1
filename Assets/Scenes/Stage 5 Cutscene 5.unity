@@ -262,8 +262,8 @@ MonoBehaviour:
   fadeSpeed: 3
   betterDialogue: {fileID: 922203625}
   sceneReference:
-    sceneAsset: {fileID: 102900000, guid: 46f91f45c3c43b84584eb88ddd8f79c7, type: 3}
-    scenePath: Assets/Scenes/Credits.unity
+    sceneAsset: {fileID: 102900000, guid: 96c4a25f4be05fe4a9960922e1b99dc8, type: 3}
+    scenePath: Assets/Scenes/Stage 5 Cutscene 6.unity
 --- !u!114 &110897432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,7 +449,7 @@ PrefabInstance:
     - target: {fileID: 1418498966, guid: 44ea7facd3d6fec4998bd3eb45d7a074, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d318f4262395db94ebe8d97cd02e1413, type: 3}
+      objectReference: {fileID: 8300000, guid: 7de408ac428739f4685307194bd9f72e, type: 3}
     - target: {fileID: 2128882817336578426, guid: 44ea7facd3d6fec4998bd3eb45d7a074, type: 3}
       propertyPath: m_Name
       value: Audio Manager
@@ -983,14 +983,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8313726, g: 0.8745099, b: 0.89019614, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 58e856241c6a9ac45a5331ab953a73c0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b2b8baedf3215df4d9434b1600c24ede, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1817,7 +1817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1779573275
 MonoBehaviour:
   m_ObjectHideFlags: 0
